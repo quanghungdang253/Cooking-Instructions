@@ -1,7 +1,5 @@
 
-<script setup>
-        import iconLogo from '../../assets/img/iconLogo.jpg';
-</script>
+
 
 <template>
     <div class="flex items-center">
@@ -12,5 +10,17 @@
         >
         <h1 class="text-[1.5em] font-bold"> Cooking </h1>
     </div>
-    
+
 </template>
+
+
+
+
+
+
+<script setup>
+     
+        import iconLogo from '../../assets/img/iconLogo.jpg';
+     
+</script>
+
