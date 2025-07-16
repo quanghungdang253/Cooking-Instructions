@@ -2,10 +2,11 @@
 
 
 <script setup>
-
+                import heroBanner from './components/hero-banner.vue';
 </script>
 
 <template>
-        <h1>    </h1>
+
+                <heroBanner />
 
 </template>

@@ -2,7 +2,7 @@
 
 <template>
         <div>
-            <router-link class="flex w-30 items-center bg-blue-600 text-white p-2 rounded-xl">
+            <router-link class="flex w-30 items-center bg-red-600 text-white p-2 rounded-md">
                   <ShoppingCartIcon class="w-8"/>
                     <h1 class="font-bold"> Giỏ hàng </h1>
               
