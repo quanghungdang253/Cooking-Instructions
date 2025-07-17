@@ -20,7 +20,7 @@
      </div>
          <div class="max-w-full h-1 content-[''] bg-red-900 mt-10 " > </div>
              <div class=" flex gap-4 p-4  overflow-x-auto bg-slate-400">
-                <router-link v-for="(item , index) in data" :key="index" class="text-center bg-white min-w-[20em] flex flex-col items-center">
+                <router-link to="/" v-for="(item , index) in data" :key="index" class="text-center bg-white min-w-[20em] flex flex-col items-center">
                     <img :src="item.img"  :alt="item.name" class="w-full h-[155px] object-contain p-2">
                     <h1 class=" p-2 font-bold text-[20px] font-mono"> {{ item.name }}</h1>
                     <span class="font-bold text-red-600 font-mono "> Giá : {{ item.price }} vnđ</span>

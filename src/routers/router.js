@@ -5,16 +5,23 @@
 
     const routes = [
         {
-            id: 0 , path: "/" , component: Home
+            id: 0 , path: "/" ,   name: "Home" , component: Home
         },
         {
-            id: 1 , path: "/About" , component: About
+            id: 1 , path: "/About"   , name: "About" , component: About
+        },
+         {
+             path: "/:pathMatch(.*)*",
+             redirect: "/"  // Hoặc có thể trỏ đến component 404
         }
     ]
 
     const router = createRouter({
-        history: createWebHistory(),
-        routes
+        history:  createWebHistory(import.meta.env.BASE_URL),
+        routes,
+         scrollBehavior(to, from, savedPosition) {
+        return savedPosition || { top: 0 }
+    }
     })
 
 
