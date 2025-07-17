@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="flex items-center justify-between mt-4">
+    <div class="flex items-center justify-between mt-4 ">
         <div>
             <img :src="imgCourses" alt="học-cách-nấu-ăn">
         </div>

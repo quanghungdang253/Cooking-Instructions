@@ -1,0 +1,11 @@
+[
+    {
+        "id": 0, "name": "GV.ĐẶNG ĐÌNH THIẾT ", "img": "/image/img-data-teachers/dang-dinh-thiet.jpg", "content": "Bếp Trưởng Nhà Hàng Đặc Sản Phương Nam"
+    },
+     {
+        "id": 1, "name": "GV.ĐỖ XUÂN TRÌNH ", "img": "/image/img-data-teachers/do-xuan-trinh.jpg", "content": "Bếp Trưởng Trung Tâm Hội Nghị Tiệc Cưới Grand Palace"
+    },
+     {
+        "id": 2, "name": "GV.CHU VĂN HƯƠNG ", "img": "/image/img-data-teachers/dang-dinh-thiet.jpg", "content": "Bếp trưởng nhà hàng Biển Xanh"
+    }
+]
