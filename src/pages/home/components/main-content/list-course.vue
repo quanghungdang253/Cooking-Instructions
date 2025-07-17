@@ -23,7 +23,7 @@
                 <div v-for="(item , index) in data" :key="index" class="text-center bg-white min-w-[20em] flex flex-col items-center">
                     <img :src="item.img"  :alt="item.name" class="w-full h-[155px] object-contain p-2">
                     <h1 class=" p-2 font-bold text-[20px] font-mono"> {{ item.name }}</h1>
-                    <span class="font-bold text-red-600 font-serif "> Giá : {{ item.price }} vnđ</span>
+                    <span class="font-bold text-red-600 font-serif "> Giá : 1.000.000 vnđ</span>
                     <router-link class="px-6 py-2 rounded-sm font-bold inline-block bg-amber-700 text-white my-8"> MUA KHÓA HỌC </router-link>
                 </div>
             </div>
