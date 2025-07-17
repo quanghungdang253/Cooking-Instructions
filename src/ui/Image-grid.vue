@@ -2,10 +2,11 @@
 
 
 <template>
-    <div class="bg-stone-300 mt-10">
+    <div class="bg-amber-400 mt-10">
         <div class="max-w-[1280px] mx-auto p-6"> 
-              <h1 class="ml-4 mb-4 font-bold bg-[#6b3b20] text-white inline-block p-2"> {{ title }} </h1>
-          <div class="flex justify-around gap-4">  
+              <!-- <h1 class=" mb-4 font-bold bg-[#6b3b20] text-white inline-block p-2"> {{ title }} </h1> -->
+               <Title :content="title" />
+          <div class="flex justify-around gap-4 mt-4">  
                 <img 
                     v-for="(item,index) in props.listImg" 
                     :key="index"
@@ -50,6 +51,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import Title from './title.vue';
  const props =  defineProps({
     listImg: {
         type: Array,

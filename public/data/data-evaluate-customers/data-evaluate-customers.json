@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0, 
+        "content": "“Trước đây, mình thường xuyên gặp khó khăn trong việc chuẩn bị bữa cơm cho gia đình. Tuy nhiên, sau khi tham gia khoá học Hôm nay ăn gì, mình không chỉ biết thêm nhiều công thức nấu ăn ngon, trình bày món ăn đẹp mắt mà còn nắm được phương pháp chế biến nhanh chóng và tự lên thực đơn tiết kiệm nhưng vẫn ngon miệng, đủ chất.”",
+        "fullname": "Huỳnh Vân",
+        "nameTest": "Học viên khóa Hôm nay ăn gì",
+        "img": "/image/img-customers/Evaluate1.jpg"
+    },
+      {
+        "id": 1, 
+        "content": "“Mặc dù công việc khá bận rộn nhưng mình luôn dành thời gian để chuẩn bị những bữa ăn cho con vì không an tâm với chất lượng thực phẩm bên ngoài. Chỉ qua 3 buổi thực hành tại khoá học Món ngon cho bé, mình đã học được cách nấu cháo dinh dưỡng cho bé ăn dặm vừa ngon lại đa dạng hương vị, đồng thời “bỏ túi” thêm nhiều món ăn giúp tăng cường sức khoẻ của bản thân.”",
+        "fullname": "Duy Khánh",
+        "nameTest": "Học viên Món ngon cho bé",
+         "img": "/image/img-customers/Evaluate2.jpg"
+    },
+      {
+        "id": 2, 
+        "content": "“Giảng viên hướng dẫn tận tình, lớp học sôi động, thành phẩm các món đồ uống đều rất thơm ngon, hấp dẫn là những gì mình nhận được sau khoá học Pha chế cực cool. Từ giờ mình đã biết bí quyết làm yaourt ngon bất bại để chiêu đãi cả nhà, tự làm trà đen macchiato để uống thoả thích mà không cần phải ra quán, đặc biệt là tự tin pha chế cocktail để “chill” cùng bạn bè vào những dịp đặc biệt.”",
+        "fullname": "Hạ Dương",
+        "nameTest": "Học viên lớp Pha chế cực cool",
+        "img": "/image/img-customers/Evaluate3.jpg"
+    }
+]

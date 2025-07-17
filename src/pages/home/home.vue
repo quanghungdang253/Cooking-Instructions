@@ -9,6 +9,7 @@
                 import homeVideo from './components/main-content/home-video.vue';
                 import ImageGrid from '@/ui/Image-grid.vue';
                 import listTeacher from './components/main-content/list-teacher.vue';
+                import studentFeelings from './components/main-content/student-feelings.vue';
                 //=================================data===========================
                 import { listImgFacilities, listImgStudents } from './components/data-img/data-img';
 </script>
@@ -41,10 +42,15 @@
                 
                 <div class="max-w-[1280px] mx-auto">
                           <listTeacher />
+                          
                 </div>
-                  <div>  
+                  <div >  
                         <ImageGrid :listImg="listImgFacilities" title="HÌNH ẢNH CƠ SỞ VẬT CHẤT" />
-                </div>
+                     
+                  </div>
+                  <div class="max-w-[1280px] mx-auto">
+                           <studentFeelings />
+                  </div>
 
         </div>
    </div>
