@@ -5,7 +5,7 @@
 
             <div class="flex">
                          <Input 
-                              placeholder="Bạn muốn tìm sản phẩm nào " 
+                              placeholder="Vui lòng nhập từ khóa cần tìm " 
                               class="min-w-[50em]"
                          />
                     <div class="bg-orange-800 flex items-center justify-center p-2 cursor-pointer">  
