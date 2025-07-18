@@ -1,0 +1,148 @@
+[
+    {
+        "id":0,
+        "name": "Bữa Sáng Thông Minh",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/dien-tam-hong-kong-khoa-hoc-nau-an-gia-dinh.jpg",
+        "description": "Khóa học cung cấp công thức chế biến món ăn sáng ngon, phương pháp nấu tiết kiệm thời gian nhưng đảm bảo dinh dưỡng.",
+        "price": "1.600.000 ",
+        "endpoint": "data-study-program"
+
+
+    },
+     {
+        "id":1,
+        "name": "Hôm Nay Ăn Gì",
+        "description": "Khóa học giúp bạn có thể biến nguyên liệu quen thuộc thành món ăn thơm ngon, lạ miệng, làm phong phú thực đơn.",
+
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/06/mon-ngon-cuoi-tuan-gan-ket-gia-dinh.jpg",
+         "price": "1.600.000 ",
+           "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":2,
+        "name": "Món Ngon Cuối Tuần",
+        "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/khoa-hoc-mon-ngon-cuoi-tuan-hoc-nau-an-gia-dinh-tphcm.jpg",
+       "price": "1.600.000 ",
+           "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":3,
+        "name": "Món ngon 3 miền ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/khoa-hoc-nau-an-gia-dinh-don-gian-gia-re.jpg",
+        "price": "1.600.000 ",
+        "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":4,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                "endpoint": "data-study-program"
+    
+    },
+     {
+        "id":5,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+             "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":6,
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+              "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":7,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+         "price": "1.600.000 ",
+             "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":8,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                 "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":9,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                 "endpoint": "data-study-program"
+    
+    },
+     {
+        "id":10,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                 "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":11,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                 "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":12,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+         "price": "1.600.000 ",
+         "endpoint": "data-study-program"
+        
+    },
+     {
+        "id": 13,
+        "name": "Cá Chép khó nghệ",
+
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+             "price": "1.600.000 ",
+                 "endpoint": "data-study-program"
+        
+    },
+     {
+        "id":14,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+         "price": "1.600.000 ",
+         "endpoint": "data-study-program"
+    
+    },
+     {
+        "id":15,
+        "name": "Cá Chép khó nghệ",
+              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/  ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+       "endpoint": "data-study-program"
+        
+    }
+]

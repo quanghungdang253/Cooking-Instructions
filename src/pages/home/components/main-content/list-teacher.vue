@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-    import dataTechers from '../../../../../public/data/data-teachers/data-teachers-show.json';
+    import dataTechers from '../../assets/static-data/data-teachers-show.json';
   import Title from '../../../../ui/title.vue';
 
 

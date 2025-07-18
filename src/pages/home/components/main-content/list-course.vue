@@ -1,25 +1,24 @@
 
 <template>
-    <div class="">   
+    <div class="relative inline-block mb-2 mt-4">
         <div>  
         
-            <span class="
-                      relative 
-                          float-left h-10 leading-10
-                              bg-[#6b3b20] text-white px-2 text-xl font-medium 
-                      uppercase after:content-[''] after:absolute after:top-0 
-                     after:left-full after:border-[20px] after:border-transparent
-                             after:border-l-[#6b3b20] after:border-b-[#6b3b20]
-                    ">
-                {{ title }}
-         </span>  
+           <span
+      class="relative z-10 block h-10 leading-10 px-4 bg-[#6b3b20] text-white text-xl font-medium uppercase"
+    >
+      {{ title }}
+    </span>
+    <span
+      class="absolute top-0 left-full w-0 h-0 border-t-[20px] border-b-[20px] border-l-[20px] border-t-transparent border-b-transparent border-l-[#6b3b20]"
+    ></span>
       </div>
 
 
 
      </div>
-         <div class="max-w-full h-1 content-[''] bg-red-900 mt-10 " > </div>
-             <div class=" flex gap-4 p-4  overflow-x-auto bg-slate-400 ">
+         <div class="max-w-full h-1 content-[''] bg-red-900 mt-0 " > </div>
+         <div class="relative">  
+             <div class=" flex gap-4 p-4  overflow-x-hidden bg-slate-400 relative  scroll-smooth" ref="containerScroll">
                 <router-link
                      :to="{name: 'home-course-detail', params: {
                         endpoint: item.endpoint,
@@ -33,15 +32,34 @@
                     <span class="font-bold text-red-600 font-mono "> Giá : {{ item.price }} vnđ</span>
                     <h1 class="px-6 py-2 rounded-sm font-bold inline-block bg-amber-700 text-white my-8"> MUA KHÓA HỌC </h1>
                 </router-link>
+             
             </div>
+                <div class="">
+                        <button 
+                            class="absolute z-20 left-0 bottom-44 bg-white p-2 font-bold"
+                            @click="handleScrollLeft"
+                        >
+                             <ArrowLeftIcon class="w-6 font-bold" />
+                        </button>
+                        <button 
+                            class="absolute z-20 right-0 bottom-44  bg-white p-2 font-bold"
+                            @click="handleScrollRight"
+                        > 
+                            <ArrowRightIcon class="w-6" />
+                        </button>
+                </div>
+            </div>
+           
 </template>
 
 
 <script setup>
-        import { defineProps, onMounted, ref, watch } from 'vue';
-
+        import { defineProps, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/solid'
         import useCourseHome from '../../../../hooks/use-show-course/use-course-home';
-    
+     const containerScroll = ref(null);
+     const widthScroll = 300;
+     let time = ref(null);
         const url = defineProps({
             nameUrl : {
                 type: String,
@@ -52,8 +70,21 @@
                 required: true
             }
         })
+       const handleScrollLeft = () => {
+            containerScroll.value.scrollLeft -= widthScroll;
+       }
+       const handleScrollRight = () => {
+                containerScroll.value.scrollLeft += widthScroll;
+       }
        
-       
+      onMounted(() => {
+            time = setInterval(() => {
+                    handleScrollRight()
+            },3000)
+       })
+       onBeforeUnmount(() => {
+                clearInterval(time)
+       })
         const {data} = useCourseHome(url.nameUrl);
         const title = url.title;
         watch(data, (newData) => {

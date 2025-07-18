@@ -2,7 +2,7 @@
 
 
 <template>
-    <div class="mt-4">  
+    <div class="mt-4 h-[10000px]">  
        <div v-if="data.length > 0" class="max-w-[1280px] mx-auto grid gap-6">
              <div v-for="(item, index) in data " :key="index" class="flex">
                 <div>
@@ -31,8 +31,24 @@
                     title="CƠ SỞ VẬT CHẤT TỐT HIỆN ĐẠI "
                  />
              </div>
+             <div>
+                 <h1 class="bg-orange-800 font-bold text-white text-center"> THỜI GIAN HỌC - LỊCH HỌC </h1>
+                 <div>
+                        <Table 
+                             :rows="3"
+                             :columns="['STT', 'Ngày Học', 'Sáng','Chiều','Tối']"
+           :data="[
+                     ['1', 'Thứ 2 – 4 – 6', '08h30 – 11h30', '13h30 – 16h30','18h00 – 21h00'],
+                     ['2', 'Thứ 3 – 5 – 7', '08h30 – 11h30','13h30 – 16h30','18h00 – 21h00']
+             ]"
+                        
+                        />
+                 </div>
+             </div>
       </div>
-
+        <div class="max-w-[1280px] mx-auto">
+                <studyProgram />
+        </div>
  </div>
 </template>
 
@@ -41,8 +57,12 @@
         import { onMounted, watch } from 'vue';
         import useCourseHome from '../../hooks/use-show-course/use-course-home';
         import ImageGrid from '../../ui/Image-grid.vue';
+        import studyProgram from './components/study-program.vue';
         import { listImgFacilities } from '../home/components/data-img/data-img';
-        const {data} = useCourseHome("/data-detail/family-cooking-course/family-cooking-course.json");
+        import Table from '../../ui/table.vue';
+      
+    const {data} = useCourseHome("/data-detail/family-cooking-course/family-cooking-course.json");
+    console.log(data);
     watch( data, (newValue) => {
             console.log("dữ liệu đã tải xong " + newValue);
     })

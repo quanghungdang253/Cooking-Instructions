@@ -39,7 +39,7 @@
                      
                
                            
-            <
+            
 
              </div>
          </div>
@@ -51,6 +51,7 @@
 
 <script setup>
 import { ref } from 'vue';
+
 import Title from './title.vue';
  const props =  defineProps({
     listImg: {
@@ -64,6 +65,7 @@ import Title from './title.vue';
 })
       
 import { XMarkIcon } from '@heroicons/vue/24/solid'
+
 
 
 const indexImg = ref(null);

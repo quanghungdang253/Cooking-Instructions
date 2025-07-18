@@ -33,7 +33,7 @@
 
 <script setup>
         import { ref } from 'vue';
-        import dataCustomers from '../../../../../public/data/data-evaluate-customers/data-evaluate-customers.json'
+        import dataCustomers from '../../assets/static-data/data-evaluate-customers.json'
         import { StarIcon } from '@heroicons/vue/20/solid'
     console.log("Dữu liệu là " + dataCustomers);
 </script>

@@ -1,7 +1,7 @@
 
 
         <template>
-                <div class="shadow ">  
+           <div class="shadow ">  
                 <div class="max-w-[1280px] mx-auto flex items-start shadow-2xl p-6">
                         <div>   
                         <HomeCourseMain v-if="selectedItem"    :listData="selectedItem" />
@@ -11,8 +11,15 @@
                         <div>
                                 <homeSideBar :listData="selectedItem"/>
                         </div>
+                        
                 </div>
+                 <div class="max-w-[1280px] mx-auto ">
+                        <listCourse 
+                            nameUrl="/data/data-courser/family-cooking.json"
+                            title="KHÓA HỌC LIÊN QUAN "
+                        />
                 </div>
+           </div>
 
         </template>
 
@@ -23,6 +30,7 @@
                 import HomeCourseDetail from '../../hooks/use-handle-detail/use-home-course-detail';
                 import homeCourseFooter from './components/home-course-footer.vue';
                 import homeSideBar from './components/home-side-bar.vue';
+                import listCourse from '../home/components/main-content/list-course.vue';
                 const route = useRoute();
         
         import HomeCourseMain from './components/home-course-main.vue';
@@ -38,7 +46,7 @@
     : null;
                 
                 
-        },
+        }
 
   
 

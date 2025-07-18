@@ -4,12 +4,12 @@
     <div class="max-w-[60em]">  
          <h1 class="font-bold my-6 text-[22px]"> Mô tả khóa học    </h1>
     <div v-if="listData">
-        <div>
+       <figure>  
             <h2 class="my-4"> {{ listData.describe.content1 }}</h2>
             <img :src="listData.describe.img" alt="">
             <figcaption>  {{ listData.figcaption }} </figcaption>
             <h2 class="my-4"> {{ listData.describe.content2 }}</h2>
-        </div>
+      </figure>
         <div v-for="(item,index) in listData.step" :key="index">
             <div>
               <h2 class="mt-6 font-bold mb-6">    {{ item.nameStep }} </h2>

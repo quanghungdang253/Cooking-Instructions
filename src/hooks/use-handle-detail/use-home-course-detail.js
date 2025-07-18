@@ -7,13 +7,17 @@ const HomeCourseDetail = (endpoint) => {
     const listData = ref([""]);
     const handleGetData = async() => {
         try {
-               let dataCourser = ["family-cooking", "food-everyday"];
-    let dataCourserSidebar = ["buyALot", "highlyAppreciated"];
+          let dataCourser = ["family-cooking", "food-everyday"];
+          let dataCourserSidebar = ["buyALot", "highlyAppreciated"];
+          let dataStudyProgram = ["data-study-program"];
     if(dataCourser.includes(endpoint.value)){
             nameFolder.value = "data-courser";
     }else if(dataCourserSidebar.includes(endpoint.value)){
            nameFolder.value = "data-courser-sidebar";
-    }else {
+    }else if(dataStudyProgram.includes(endpoint)){
+            nameFolder.value = "data-study-program";
+    }
+    else {
             nameFolder.value = "data-courser";
     }
 

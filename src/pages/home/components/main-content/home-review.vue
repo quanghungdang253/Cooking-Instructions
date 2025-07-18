@@ -1,7 +1,7 @@
 
 
 <template>
-    <div>
+    <div class="mt-6">
         <div class="text-center">
             <h1 class="text-3xl font-mono font-bold text-red-950"> Lý do nên học ở đầu bếp Cooking </h1>
             <p class="text-xl">  Đáp ứng đầy đủ nhu cầu theo tiêu chuẩn quốc tế.</p>
