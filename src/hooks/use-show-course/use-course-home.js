@@ -15,7 +15,7 @@ const useCourseHome = (url) => {
 }
        
 onMounted(() => {
-        fetchData();
+                fetchData();
 })
  
 

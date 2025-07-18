@@ -2,6 +2,8 @@
 
 
 <script setup>
+import { onMounted } from 'vue';
+  //=====================================================================
                 import heroBanner from './components/hero-banner/hero-banner.vue';
                 import homeCourse from './components/main-content/home-course.vue';
                 import listCourse from './components/main-content/list-course.vue';
@@ -12,6 +14,14 @@
                 import studentFeelings from './components/main-content/student-feelings.vue';
                 //=================================data===========================
                 import { listImgFacilities, listImgStudents } from './components/data-img/data-img';
+
+
+                onMounted(() => {
+                        window.scrollTo({
+                                top: 0,
+                                behavior:'smooth'
+                        })     
+                })
 </script>
 
 <template>
