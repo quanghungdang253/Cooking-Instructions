@@ -5,7 +5,8 @@ const HomeCourseDetail = (endpoint) => {
     const listData = ref([]);
     const handleGetData = async() => {
         try {
-            const data = await axiosClient.get(`/data/data-detail/data-courser/${{endpoint}}.json`);
+            const data = await axiosClient.get(`/data-detail/data-courser/${endpoint}.json`);
+          
             if(data){
                   listData.value = data
             }

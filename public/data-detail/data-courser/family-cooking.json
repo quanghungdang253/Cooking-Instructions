@@ -1,0 +1,780 @@
+[
+    {
+        "id": 0,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ],
+        "buyALot": [
+            {
+                "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 1, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 3, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 4, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 5, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            }
+        ],
+        "highlyAppreciated": [
+            {
+                "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 1, "nameCourser": "Gà xào ba ly", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 3, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 4, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            },
+             {
+                "id": 5, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 "
+              
+            }
+        ]
+
+    },
+     {
+        "id": 1,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 2,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 3,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 4,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 4,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 5,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 6,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 7,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 8,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    },
+     {
+        "id": 9,
+        "name": "Cá Chép khó nghệ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "price": "1.600.000 ",
+        "describe": [
+            {
+                "id": 0, 
+                 "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe.jpg",
+                "content1": "Cá chép kho nghệ là món ăn với cơm nóng rất ngon, thường có mặt trong bữa cơm hàng ngày của người Việt. Thế nhưng không phải ai cũng biết cách kho cá chép với nghệ cho màu cá đẹp và hương vị đậm đà hấp dẫn.",
+                "figcaption": "Cá chép kho nghệ đưa cơm. Ảnh: internet",
+                "content2": "Cá chép có thể chế biến thành nhiều món ăn ngon khác nhau, nhưng nếu để ăn với cơm nóng trong bữa cơm thường nhật thì món cá chép kho nghệ là ngon nhất. Cá chép kho với nghệ không những có màu vàng óng rất đẹp mắt mà thịt cá chắc ngọt, thấm đẫm gia vị khiến nồi cơm nhà bạn bao nhiêu cũng vơi hết. Dưới đây, Đầu bếp gia đình sẽ hướng dẫn bạn cách nấu cá chép kho nghệ ngon như đầu bếp chuyên nghiệp."
+            }
+        ],
+        "step": [
+            {
+                "id": 0,
+                "nameStep": "Bước 1: Chuẩn bị nguyên liệu",
+                "listFood": [
+                    "Cá chép: 1kg",
+                    "Nước dừa: 200ml (1 quả)",
+                    "Nghệ tươi: 1 – 2 nhánh toNước dừa: 1 quả",
+                    "Gia vị: nước mắm, bột ngọt, hạt nêm, hạt tiêu, hành tím, ớt tươi,…"
+                ],
+                "img": ""
+            },
+             {
+                "id": 1,
+                 "nameStep": "Bước 2: Sơ chế nguyên liệu",
+                "listFood": [
+                    "Cá chép mua về đánh sạch vẩy, mổ bụng và cắt thành từng khúc. Bạn có thể dùng vài lát chanh chà thật mạnh vào cá để khử mùi tanh của cá chép cũng như giúp cá trắng hơn. Sau khi chà xong bạn mới mổ bụng và cắt khúc nhé.",
+                    "Củ nghệ rửa sạch, cạo vỏ sau đó cho vào cối giã nát.",
+                    "Bóc vỏ hành tím, thái nhỏ hoặc băm nhỏ.",
+                    "Ớt thái nhỏ."
+                ],
+                "img": ""
+            },
+             {
+                "id": 2,
+                "nameStep": "Bước 3: Ướp và kho cá",
+                "listFood": [
+                    "Cho cá vào chiếc tô lớn, cho thêm nghệ tươi giã nhuyễn, 1 nửa số hành tím đã băm, nước mắm và ớt tươi vào ướp. Thời gian ướp từ 15 – 20 phút cho cá thấm gia vị.",
+                    "Bắc nồi kho cá lên bếp, thêm một chút dầu nóng, phi hành tím cho thật thơm rồi cho cá đã ướp vào nồi. Đổ thêm nước dừa vào nồi cá và kho. Cá sôi thì bạn nêm nếm thêm các gia vị khác cho vừa vặn khẩu vị rồi đun lửa riu riu đến khi nồi cá cạn nước."
+                   
+                ],
+                "img": ""
+            },
+             {
+                "id": 3,
+                "nameStep": "Bước 4: Thưởng thức",
+                "listFood": [
+                    "Nêu cá khi đã cạn nước và có màu vàng ươm thơm nức, bạn gắp cá ra dĩa và ăn cùng với cơm nóng hoặc bún đều rất ngon.",
+                    "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-kho-nghe-dam-da.jpg",
+                    "Yêu cầu thành phẩm món cá chép kho nghệ:",
+                    "Có rất nhiều thời điểm trước đó, Điền muốn nói. Nhưng sự nghiệp chưa có gì nên Điền không thể nói được.",
+                    "Món cá kho ngon và đạt chuẩn là cá phải có màu vàng nghệ óng ánh, thịt cá chắc, không bị nát.",
+                    "Cá kho tới lúc nước cá sền sệt, không nhiều nước. Thịt cá ngọn ngọt, độ mặn vừa phải, không bị cháy đáy nồi.",
+                    "Mỗi một vùng miền sẽ có những đặc sản độc đáo tiêng. Cá chép kho nghệ là món ăn dân dã quen thuộc của người miền núi phía Bắc, còn khi đến miền Nam bạn sẽ được thưởng thức món cá kèo rau răm đặc biệt.",
+                    "Như vậy là chúng tôi đã hướng dẫn xong cách làm món cá kho nghệ cho các bạn, cách kho cá chép với nghệ cũng khá đơn giản phải không nào. Nếu bạn đã kho cá nhiều lần nhưng chưa ngon đúng ý thì hãy xem thêm các khóa học nấu ăn gia đình tại Bếp Gia Đình Hướng Nghiệp Á Âu để tham khảo các lớp học nấu ăn ngon phù hợp với nhu cầu của bạn nhé!",
+                    "Chúc bạn thành công!"
+                ],
+                "img": ""
+            }
+        ]
+
+    }
+]
