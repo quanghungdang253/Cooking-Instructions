@@ -7,8 +7,14 @@
         <div class="flex justify-between  text-white"> 
             <div class="flex gap-10"> 
                          <div   v-for="(item,index) in listData" :key="index" class="flex items-center"> 
-                    
+                             <router-link 
+                              to="/"
+                              v-if="index == 0"
+                              class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"> 
+                              {{ item.name }}
+                            </router-link>
                              <h1 
+                                 v-if="index !== 0"
                                  @mouseover="handleOpen = index"
                                  class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"
                                > {{ item.name }}
