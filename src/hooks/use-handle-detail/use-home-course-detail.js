@@ -14,7 +14,7 @@ const HomeCourseDetail = (endpoint) => {
             nameFolder.value = "data-courser";
     }else if(dataCourserSidebar.includes(endpoint.value)){
            nameFolder.value = "data-courser-sidebar";
-    }else if(dataStudyProgram.includes(endpoint)){
+    }else if(dataStudyProgram.includes(endpoint.value)){
             nameFolder.value = "data-study-program";
     }
     else {

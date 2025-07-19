@@ -6,16 +6,17 @@
 </script>
 
 <template>
- 
+
         <div class="max-w-[1280px] mx-auto">
                 <mainTopHeader />
            
         </div>
         <div class=""> 
-              <div class="">   
+            
                      <navigationHeader />
-              </div>
+            
         </div>
+
       
                
     

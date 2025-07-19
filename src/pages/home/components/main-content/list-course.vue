@@ -29,8 +29,28 @@
                      :key="index" class="text-center bg-white min-w-[20em] flex flex-col items-center cursor-pointer hover:translate-y-[-5px] duration-300">
                     <img :src="item.img"  :alt="item.name" class="w-full h-[155px] object-contain p-2">
                     <h1 class=" p-2 font-bold text-[20px] font-mono"> {{ item.name }}</h1>
-                    <span class="font-bold text-red-600 font-mono "> Giá : {{ item.price }} vnđ</span>
-                    <h1 class="px-6 py-2 rounded-sm font-bold inline-block bg-amber-700 text-white my-8"> MUA KHÓA HỌC </h1>
+                    <span
+                     v-if="item.endpoint !== 'data-raising-children'"
+                        class="font-bold text-red-600 font-mono 
+                        
+                        "> Giá : {{ item.price }} vnđ</span>
+                    <span 
+                        v-else
+                        class="font-bold text-red-600 ">  {{ item.content }}</span>
+                    <h1 
+                        class="px-6 py-2 rounded-sm font-bold 
+                        
+                        inline-block bg-amber-700 text-white my-8"
+                        v-if="item.endpoint !== 'data-raising-children'"
+                        >
+                         MUA KHÓA HỌC
+                    
+                     </h1>
+                     <h1 class="px-6 py-2 rounded-sm font-bold 
+                        
+                        inline-block bg-amber-700 text-white my-8"
+                        v-else"
+                        > XEM THÊM </h1>
                 </router-link>
              
             </div>

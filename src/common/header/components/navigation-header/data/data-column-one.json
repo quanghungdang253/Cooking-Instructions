@@ -1,32 +1,41 @@
 [
     {
-        "id": 1, "name": "Bữa sáng thông minh"
+        "id": 1, "name": "Bữa sáng thông minh",    "endpoint": "data-study-program"
     },
     {
-        "id": 2, "name": "Hôm nay ăn gì  "
+        "id": 2, "name": "Hôm nay ăn gì  ",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 3, "name": "Món ngon cuối tuần"
+        "id": 3, "name": "Món ngon cuối tuần",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 4, "name": "Pha ché cực Cool"
+        "id": 4, "name": "Pha ché cực Cool",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 5, "name": "Điểm tâm Hông Kong"
+        "id": 5, "name": "Điểm tâm Hông Kong",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 6, "name": "Món ăn cho mẹ và bé"
+        "id": 6, "name": "Món ăn cho mẹ và bé",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 7, "name": "Món ngon Châu Á "
+        "id": 7, "name": "Món ngon Châu Á ",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 8, "name": "Món ăn đường phố "
+        "id": 8, "name": "Món ăn đường phố ",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 9, "name": "Món ngon 3 Miền"
+        "id": 9, "name": "Món ngon 3 Miền",
+           "endpoint": "data-study-program"
     },
     {
-        "id": 10, "name": "Món ăn bổ dưỡng "
+        "id": 10, "name": "Món ăn bổ dưỡng ",
+           "endpoint": "data-study-program"
     }
 ]

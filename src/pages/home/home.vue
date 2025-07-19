@@ -49,7 +49,6 @@ import { onMounted } from 'vue';
                 <div>  
                         <ImageGrid :listImg="listImgStudents" title="HÌNH ẢNH THỰC TẾ "/>
                 </div>
-                
                 <div class="max-w-[1280px] mx-auto">
                           <listTeacher />
                           
@@ -60,6 +59,13 @@ import { onMounted } from 'vue';
                   </div>
                   <div class="max-w-[1280px] mx-auto">
                            <studentFeelings />
+                           <listCourse 
+                                nameUrl="/data/data-raising-children/data-raising-children.json"
+                                title="NUÔI DẠY TRẺ"
+                          />
+                  </div>
+
+                  <div>
                   </div>
 
         </div>

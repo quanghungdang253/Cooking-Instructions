@@ -2,9 +2,11 @@
 
 <template>
         <div>
-            <router-link class="flex w-30 items-center bg-green-700 text-white p-2 rounded-md">
+            <router-link 
+                to="/Cart"
+                class="flex w-30 items-center bg-indigo-900 text-white p-2 rounded-md">
                   <ShoppingCartIcon class="w-8"/>
-                    <h1 class="font-bol font-semibold"> Giỏ hàng </h1>
+                    <h1 class="font-bol font-mono"> Giỏ hàng </h1>
               
             </router-link>
         </div>

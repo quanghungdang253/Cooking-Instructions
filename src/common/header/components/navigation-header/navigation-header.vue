@@ -1,7 +1,8 @@
 
 
     <template>
-<div @mouseleave="handleOpen = null" class="relative">
+<div>  
+<div  @mouseleave="handleOpen  = false " class="relative">
   <div  class="bg-orange-900">  
     <div class="max-w-[1280px] mx-auto"> 
         <div class="flex justify-between  text-white"> 
@@ -16,6 +17,7 @@
                              <h1 
                                  v-if="index !== 0"
                                  @mouseover="handleOpen = index"
+                              
                                  class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"
                                > {{ item.name }}
                                  </h1>
@@ -31,17 +33,30 @@
          </div>
     </div>
 
-    
+
     <div class="absolute top-full w-full left-0 right-0  shadow-lg z-50 ">   
         <div class="max-w-[1280px] mx-auto">  
            
-                <transition name="fade-slide">  
+                <transition name="fade-slide" mode="out-in">  
                  <div  
                     v-if="handleOpen !== null && listData[handleOpen]?.data.length " 
-                    class="grid grid-cols-3 bg-white" 
+                    class="grid grid-cols-3  bg-white" 
                 >
-                    <div v-for="(itemChild , index) in listData[handleOpen].data" :key="index" class="">
-                          <h1 class="cursor-pointer hover:bg-yellow-600 text-center  font-mono  p-1 font-bold "> *{{ itemChild.name }}</h1>
+                    <div v-for="(itemChild , index) in listData[handleOpen].data"  class=" text-center"
+                     :key="index" 
+                    
+                    
+                    >
+                      <div
+ 
+  class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"
+>
+                          <h1
+                            class="cursor-pointer hover:bg-yellow-600 text-center font-mono  font-bold inline-block p-2 hover:transition-transform hover: duration-700"
+                             @click="handleNavigation(itemChild.endpoint, itemChild.id)"
+                            >  {{ itemChild.name }}
+                          </h1>
+                      </div>
                           <hr>
                      </div>
                  </div>
@@ -50,12 +65,25 @@
         </div>
   </div>
  </div>
+  </div>
     </template>
 
     <script setup>
         import { ref } from 'vue';
+        import { useRouter } from 'vue-router';
         import listData from './components/handle-data';
         let handleOpen = ref(null);
+
+        const router = useRouter();
+        const handleNavigation = (endpoint, id) => {
+            router.push({
+              name: 'home-course-detail',
+              params: {
+               endpoint,
+                 id
+             }
+            })
+        }
         
     </script> 
 

@@ -2,16 +2,21 @@
 
         <template>
            <div class="shadow ">  
-                <div class="max-w-[1280px] mx-auto flex items-start shadow-2xl p-6">
-                        <div>   
-                        <HomeCourseMain v-if="selectedItem"    :listData="selectedItem" />
+                <div class="max-w-[1280px] mx-auto ">
+                    <div class="flex items-start shadow-2xl p-6">   
+                        <div class=" shadow-2xl p-4">   
+                             <HomeCourseMain v-if="selectedItem"    :listData="selectedItem" />
                                 <hr>
-                        <homeCourseFooter :listData="selectedItem" />
+                             <homeCourseFooter :listData="selectedItem" />
                         </div>
                         <div>
                                 <homeSideBar :listData="selectedItem"/>
                         </div>
-                        
+                    </div>
+                   
+                </div>
+                <div>
+                
                 </div>
                  <div class="max-w-[1280px] mx-auto ">
                         <listCourse 
@@ -31,6 +36,7 @@
                 import homeCourseFooter from './components/home-course-footer.vue';
                 import homeSideBar from './components/home-side-bar.vue';
                 import listCourse from '../home/components/main-content/list-course.vue';
+                import Table from '../../ui/table.vue';
                 const route = useRoute();
         
         import HomeCourseMain from './components/home-course-main.vue';

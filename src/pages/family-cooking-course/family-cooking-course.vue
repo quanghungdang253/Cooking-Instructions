@@ -47,6 +47,9 @@
              </div>
       </div>
         <div class="max-w-[1280px] mx-auto">
+            <div class="mb-6">  
+                    <Title content="CHƯƠNG TRÌNH HỌC "/>
+             </div>
                 <studyProgram />
         </div>
  </div>
@@ -60,6 +63,7 @@
         import studyProgram from './components/study-program.vue';
         import { listImgFacilities } from '../home/components/data-img/data-img';
         import Table from '../../ui/table.vue';
+        import Title from '@/ui/title.vue';
       
     const {data} = useCourseHome("/data-detail/family-cooking-course/family-cooking-course.json");
     console.log(data);
