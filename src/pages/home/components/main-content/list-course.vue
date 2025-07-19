@@ -41,7 +41,7 @@
                         class="px-6 py-2 rounded-sm font-bold 
                         
                         inline-block bg-amber-700 text-white my-8"
-                        v-if="item.endpoint !== 'data-raising-children'"
+                        v-if="item.endpoint != 'data-raising-children'"
                         >
                          MUA KHÓA HỌC
                     
@@ -49,7 +49,7 @@
                      <h1 class="px-6 py-2 rounded-sm font-bold 
                         
                         inline-block bg-amber-700 text-white my-8"
-                        v-else"
+                        v-else
                         > XEM THÊM </h1>
                 </router-link>
              
