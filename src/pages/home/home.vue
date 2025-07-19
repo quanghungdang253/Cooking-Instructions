@@ -25,7 +25,7 @@ import { onMounted } from 'vue';
 </script>
 
 <template>
-    <div class="h-[10000px]">   
+    <div class="">   
         <div class="">   
                 <heroBanner />
         </div>

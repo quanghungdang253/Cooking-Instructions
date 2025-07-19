@@ -38,10 +38,18 @@
                                         THÊM KHÓA HỌC 
                                         </div>
                                   </router-link> -->
- <div @click="handleAddCurser" class="bg-orange-900 inline-block p-2 font-bold text-white text-center flex items-center gap-2 cursor-pointer">
+ <div @click="handleAddCurser" class="bg-orange-900 inline-block p-2 font-bold text-white   text-center flex items-center gap-2 cursor-pointer">
     <ShoppingCartIcon class="w-6" />
   THÊM KHÓA HỌC
+ 
+
 </div>
+ <Alert 
+    v-if="alert"
+    nameIcon="success" 
+    title="Thành công" 
+    text="Đã thêm món ăn thành công!" 
+  />
 
 
                                </div> 
@@ -62,8 +70,11 @@
 <script setup>
   import { HandRaisedIcon, StarIcon, ChartBarIcon } from '@heroicons/vue/24/solid';
   import cartStore from '../../../store/store';
+  import Alert from '../../../ui/alert.vue';
   import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import { useRouter } from 'vue-router'
+import { ref } from 'vue';
+const alert = ref(false);
 const router = useRouter()
 
   const cart = cartStore();
@@ -81,7 +92,8 @@ const router = useRouter()
             img: props.listData.img
         }
         cart.addItem(Courser);
-          router.push('/Cart');
+        alert.value = true;
+         
   }
       
 </script>

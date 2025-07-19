@@ -13,7 +13,7 @@
                >
                <div class="absolute top-36 left-[30em]" v-if="index == 0 || index == 1"> 
                    <h1 class="font-bold text-4xl text-red-600"> {{ listImg[index].title}} </h1>
-                    <p class="text-xl max-w-[30em] font-bold font-mono mt-6"> {{ listImg[index].content }} </p>
+                    <p class="text-xl max-w-[25em] font-bold font-mono mt-6"> {{ listImg[index].content }} </p>
                     <button class="
                       inline-block p-4 rounded-xl
                       bg-white font-bold text-2xl

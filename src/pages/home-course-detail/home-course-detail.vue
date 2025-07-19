@@ -31,7 +31,7 @@
 
         <script setup>
                 import { useRoute } from 'vue-router';
-                import { computed ,ref,watch} from 'vue';
+                import { computed ,onMounted,ref,watch} from 'vue';
                 import HomeCourseDetail from '../../hooks/use-handle-detail/use-home-course-detail';
                 import homeCourseFooter from './components/home-course-footer.vue';
                 import homeSideBar from './components/home-side-bar.vue';
@@ -43,6 +43,12 @@
         const endpoint = computed(() => route.params.endpoint);
        const id = computed(() => Number(route.params.id));
 
+       onMounted(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+       })
         
                 const {listData} = HomeCourseDetail(endpoint);
        
@@ -53,9 +59,6 @@
                 
                 
         }
-
-  
-
         );
 
         

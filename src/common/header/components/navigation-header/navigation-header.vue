@@ -50,10 +50,10 @@
                     >
                       <div
  
-  class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"
+  class="cursor-pointer pl-4 pr-2 py-2 font-bold font-mono text-[14px] hover:bg-yellow-600"
 >
                           <h1
-                            class="cursor-pointer hover:bg-yellow-600 text-center font-mono  font-bold inline-block p-2 hover:transition-transform hover: duration-700"
+                            class="cursor-pointer  text-center font-mono  font-bold inline-block  hover:transition-transform hover: duration-700"
                              @click="handleNavigation(itemChild.endpoint, itemChild.id)"
                             >  {{ itemChild.name }}
                           </h1>

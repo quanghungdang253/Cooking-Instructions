@@ -8,12 +8,18 @@
 </script>
 
 <template>
-    <div class="">
+    <div class="relative"> 
+    <div class="fixed top-0 w-full z-50 bg-white">
           <Header />
     </div>
     
- 
+        <div class="mt-[9em]">
             <router-view/>
-     
+        </div>
+
+    <div class="">
+        <Footer />
+    </div>
+      </div>
    
 </template> 

@@ -1,6 +1,6 @@
 
 <template>
-    <div class="flex justify-center" v-if="cart.listItems.length > 0">
+    <div class="flex justify-center h-[100vh]" v-if="cart.listItems.length > 0">
         <div> 
         <div>
                 <h1 class="text-2xl font-bold text-center mt-4"> GIỎ HÀNG CỦA BẠN </h1>
