@@ -27,8 +27,9 @@
                         </div>  
                         <div class="flex gap-10">
                             <router-link 
+                             to=""
                               class=" py-2 px-4 rounded-md font-bold flex items-center"> Đăng Nhập  </router-link>
-                            <router-link  class=" py-2 px-4  rounded-md font-bold  flex items-center"> Đăng Ký  </router-link>
+                            <router-link  class=" py-2 px-4  rounded-md font-bold  flex items-center" to=""> Đăng Ký  </router-link>
                          </div>
              </div>
          </div>
