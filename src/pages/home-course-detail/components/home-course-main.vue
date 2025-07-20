@@ -18,7 +18,9 @@
                             <div> 
                               <h1 class="ml-4 font-bold text-[18px] text-red-500 font-mono">  Giá : {{ listData.price }}  </h1> 
                               <div class="flex flex-col  gap-6"> 
-                                      <router-link class="bg-orange-900 inline-block p-2 font-bold text-white text-center"> ĐĂNG KÝ HỌC   </router-link>
+                                      <div 
+                                        @click="handleRegister"
+                                        class="bg-orange-900 inline-block p-2 font-bold text-white text-center cursor-pointer"> ĐĂNG KÝ HỌC   </div>
                                  <!-- <router-link 
                                             to="/Cart"
                                        
@@ -75,6 +77,7 @@
 import { useRouter } from 'vue-router'
 import { ref } from 'vue';
 const alert = ref(false);
+
 const router = useRouter()
 
   const cart = cartStore();
@@ -84,13 +87,20 @@ const router = useRouter()
                 required: true
             }
         })
-
-  const handleAddCurser = () => {
-        const Courser = {
+   const Courser = {
             name: props.listData.name,
             price: props.listData.price,
             img: props.listData.img
-        }
+    }
+  const handleRegister = () => {
+               cart.addItem(Courser);
+     
+        router.push("/Cart")
+
+  }
+
+  const handleAddCurser = () => {
+       
         cart.addItem(Courser);
         alert.value = true;
          
