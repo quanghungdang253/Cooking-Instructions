@@ -63,7 +63,7 @@
                 "img": ""
             }
         ],
-        "buyALot": [
+         "buyALot": [
             {
                 "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
                 "nameCourserSideBar": "buyALot"
@@ -71,17 +71,17 @@
               
             },
              {
-                "id": 1, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 1, "nameCourser": "Thịt Kho Với Măng", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/thit-kho-mang-tuoi-100x100.jpg", "price":"1.800.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
              {
-                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 2, "nameCourser": "Thịt kho nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/thit-kho-nam-rom-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
              {
-                "id": 3, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 3, "nameCourser": "Thịt kho Tàu", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-tau-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
@@ -98,17 +98,17 @@
         ],
         "highlyAppreciated": [
             {
-                "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 0, "nameCourser": "Bánh su kem chiên", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-banh-su-kem-chien-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
              {
-                "id": 1, "nameCourser": "Gà xào ba ly", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 1, "nameCourser": "Trứng cuộn hàn quốc", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/trung-cuon-han-quoc-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
              {
-                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 2, "nameCourser": "Lẩu gà nấu nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-anh-lau-ga-nau-nam-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
@@ -128,6 +128,7 @@
               
             }
         ]
+
 
     },
      {

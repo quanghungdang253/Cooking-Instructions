@@ -1,8 +1,8 @@
 [
      {
         "id": 0,
-        "name": "Cá Chép kho nghệ",
-        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "name": "Bữa Sáng Thông Minh",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/dien-tam-hong-kong-khoa-hoc-nau-an-gia-dinh.jpg",
         "price": "1.600.000 ",
         "endpoint": "data-study-program",
         "describe": 
@@ -64,7 +64,7 @@
                 "img": ""
             }
         ],
-        "buyALot": [
+         "buyALot": [
             {
                 "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
                 "nameCourserSideBar": "buyALot"
@@ -72,17 +72,17 @@
               
             },
              {
-                "id": 1, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 1, "nameCourser": "Thịt Kho Với Măng", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/thit-kho-mang-tuoi-100x100.jpg", "price":"1.800.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
              {
-                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 2, "nameCourser": "Thịt kho nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/thit-kho-nam-rom-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
              {
-                "id": 3, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 3, "nameCourser": "Thịt kho Tàu", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-tau-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
@@ -99,17 +99,17 @@
         ],
         "highlyAppreciated": [
             {
-                "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 0, "nameCourser": "Bánh su kem chiên", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-banh-su-kem-chien-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
              {
-                "id": 1, "nameCourser": "Gà xào ba ly", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 1, "nameCourser": "Trứng cuộn hàn quốc", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/trung-cuon-han-quoc-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
              {
-                "id": 2, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "id": 2, "nameCourser": "Lẩu gà nấu nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-anh-lau-ga-nau-nam-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "highlyAppreciated"
               
             },
@@ -130,11 +130,12 @@
             }
         ]
 
+
     },
      {
         "id": 1,
-        "name": "Cá Chép kho nghệ",
-        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "name": "Hôm Nay Ăn Gì",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/06/mon-ngon-cuoi-tuan-gan-ket-gia-dinh.jpg",
         "price": "1.600.000 ",
       "endpoint": "data-study-program",
         "describe": 
@@ -265,8 +266,8 @@
     },
     {
         "id": 2,
-        "name": "Cá Chép kho nghệ",
-        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "name": "Món Ngon Cuối Tuần",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/khoa-hoc-mon-ngon-cuoi-tuan-hoc-nau-an-gia-dinh-tphcm.jpg",
         "price": "1.600.000 ",
        "endpoint": "data-study-program",
         "describe": 
@@ -397,8 +398,8 @@
     },
      {
         "id": 3,
-        "name": "Cá Chép kho nghệ",
-        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
+        "name": "Món ngon 3 miền ",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/12/khoa-hoc-nau-an-gia-dinh-don-gian-gia-re.jpg",
         "price": "1.600.000 ",
             "endpoint": "data-study-program",
         "describe": 

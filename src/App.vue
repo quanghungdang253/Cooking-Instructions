@@ -19,7 +19,7 @@
             <router-view/>
         </div>
 
-    <div class="">
+    <div class="mt-10">
         <Footer />
     </div>
     <div class="fixed bottom-0 left-0">

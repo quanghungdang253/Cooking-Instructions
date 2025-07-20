@@ -11,6 +11,8 @@ import { onMounted } from 'vue';
                 import homeVideo from './components/main-content/home-video.vue';
                 import ImageGrid from '@/ui/Image-grid.vue';
                 import listTeacher from './components/main-content/list-teacher.vue';
+                import studyProgram from '../family-cooking-course/components/study-program.vue';
+                import Title from '@/ui/title.vue';
                 import studentFeelings from './components/main-content/student-feelings.vue';
                 //=================================data===========================
                 import { listImgFacilities, listImgStudents } from './components/data-img/data-img';
@@ -63,6 +65,12 @@ import { onMounted } from 'vue';
                                 nameUrl="/data/data-raising-children/data-raising-children.json"
                                 title="NUÔI DẠY TRẺ"
                           />
+                <div class="my-6"> 
+                        <Title content="CHƯƠNG TRÌNH ĐÀO TẠO VỚI CÁC ĐẦU BẾP NỔI TIẾNG "/>
+                  </div>
+                        <studyProgram />
+               
+                
                   </div>
 
                   <div>
