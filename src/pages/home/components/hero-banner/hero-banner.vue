@@ -8,7 +8,7 @@
                     :src="listImg[index].img" 
                     alt="" 
                     :key="listImg[index].id"
-                    class="w-full h-[30em] object-cover transition-img"
+                     :class="['w-full h-[30em] object-cover transition-img', 'active']"
                     
                >
                <div class="absolute top-36 left-[30em]" v-if="index == 0 || index == 1"> 
@@ -55,7 +55,7 @@
         import img3 from '../../assets/image/banner-03.jpg';
         import img4 from '../../assets/image/banner-04.jpg';
         import img5 from '../../assets/image/banner-05.jpg';
-     
+     const showActive = ref(false);
          let listImgSale = [
             {
               id: 0, img: img1, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
@@ -83,7 +83,8 @@
         }
       
    const handleLeft = () => {
-          index.value = index.value < 0 ? listImg.value.length - 1 : index.value - 1;
+          index.value = (((index.value - 1 ) < 0) ? listImg.value.length - 1 : index.value - 1)
+            
    }
    const handleRight = () => {
           index.value = (index.value + 1) % listImg.value.length;
@@ -124,14 +125,21 @@
 }
 
 .transition-img {
-  position: absolute;
+ position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Đảm bảo hình đẹp */
+  object-fit: cover;
+  transition: transform 2s ease, opacity 2s ease; /* Thêm hiệu ứng transform + fade */
+  opacity: 0;
+  transform: scale(1.05); /* bắt đầu từ scale to hơn */
 }
 
+.transition-img.active {
+  opacity: 1;
+  transform: scale(1); /* từ từ phóng nhỏ lại đúng tỉ lệ */
+}
 
 
 </style>

@@ -18,7 +18,7 @@
                 class="cursor-pointer hover:translate-y-[-5px] duration-300 min-w-[280px]"
               >
             </div>
-            <div v-if="indexImg !== null" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 transition-transform " >  
+            <div v-if="indexImg !== null" class="fixed z-50 inset-0 flex items-center justify-center bg-black bg-opacity-80 transition-transform " >  
                      <div class="relative  ">
                         <transition name="fade-slide" mode="out-in" > 
                             <img 
@@ -31,11 +31,11 @@
                          </transition>
                       </div>
                       <div>
-                            <div class="absolute top-1/2 left-4 text-white text-3xl cursor-pointer" @click="leftImg"> ⟨ </div>
-                            <div class="absolute top-1/2 right-4 text-white text-3xl cursor-pointer" @click="rightImg"> ⟩ </div>
+                            <div class="absolute top-1/2 left-20 text-white text-3xl cursor-pointer" @click="leftImg"> ⟨ </div>
+                            <div class="absolute top-1/2 right-20 text-white text-3xl cursor-pointer" @click="rightImg"> ⟩ </div>
                       </div>
                       
-                             <button class="absolute top-6 right-6" @click="clodeImg">   <XMarkIcon class="w-6 h-6 text-white cursor-pointer" /> </button>
+                             <button class="absolute top-10 right-10" @click="clodeImg">   <XMarkIcon  class="w-8 h-8 font-bold  text-white cursor-pointer" /> </button>
                      
                
                            

@@ -23,6 +23,10 @@
                             nameUrl="/data/data-courser/family-cooking.json"
                             title="KHÓA HỌC LIÊN QUAN "
                         />
+                         <div class="my-6">  
+                        <Title content="CHƯƠNG TRÌNH HỌC "/>
+                 </div>
+                        <studyProgram />
                 </div>
            </div>
 
@@ -35,8 +39,10 @@
                 import HomeCourseDetail from '../../hooks/use-handle-detail/use-home-course-detail';
                 import homeCourseFooter from './components/home-course-footer.vue';
                 import homeSideBar from './components/home-side-bar.vue';
+                import studyProgram from '../family-cooking-course/components/study-program.vue';
                 import listCourse from '../home/components/main-content/list-course.vue';
                 import Table from '../../ui/table.vue';
+                import Title from '@/ui/title.vue';
                 const route = useRoute();
         
         import HomeCourseMain from './components/home-course-main.vue';
@@ -49,12 +55,11 @@
             behavior: 'smooth'
         })
        })
-        
                 const {listData} = HomeCourseDetail(endpoint);
        
                 const selectedItem = computed(() => {
                           return Array.isArray(listData.value)
-    ? listData.value.find((item) => item.id === id.value) || null
+          ? listData.value.find((item) => item.id === id.value) || null
     : null;
                 
                 

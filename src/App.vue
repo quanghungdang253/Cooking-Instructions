@@ -5,6 +5,8 @@
 <script setup>
     import Header from './common/header/header.vue';
     import Footer from './common/footer/footer.vue';
+    import iconPhone from './ui/icon-phone.vue';
+    import iconContact from './ui/icon-contact.vue';
 </script>
 
 <template>
@@ -19,6 +21,12 @@
 
     <div class="">
         <Footer />
+    </div>
+    <div class="fixed bottom-0 left-0">
+            <iconPhone />
+    </div>
+    <div class="fixed right-0 bottom-0">
+            <iconContact />
     </div>
       </div>
    

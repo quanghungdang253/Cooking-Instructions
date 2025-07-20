@@ -1,19 +1,19 @@
 
 <template>
-    <div class="flex justify-center h-[100vh]" v-if="cart.listItems.length > 0">
-        <div> 
+    <div class="flex justify-center  min-h-[1000px]" v-if="cart.listItems.length > 0">
+     <div> 
         <div>
                 <h1 class="text-2xl font-bold text-center mt-4"> GIỎ HÀNG CỦA BẠN </h1>
         </div>
         <div class=" bg-orange-800 ">
-            <div class="flex justify-between inline-block text-white p-2">
+            <div class="flex  justify-between   text-white p-2">
                 <h1> SẢN PHẨM </h1>
                 <h1> GIÁ </h1>
                 <h1> TẠM TÍNH </h1>
             </div>
-            <div v-if="cart.listItems.length > 0"  >
+            <div v-if="cart.listItems.length > 0" class="flex flex-col gap-10" >
                 <div v-for="(items,index) in cart.listItems" :key="index" class="shadow-2xl p-4 relative min-w-[56em]" >
-                    <div class="flex justify-between">
+                    <div class="flex  justify-between">
                         <div class="flex gap-4">  
                             <img :src="items.img" alt="" class="max-w-[10em]">
                             <p class="font-semibold max-w-[6em] text-xl font-mono text-yellow-400">{{ items.name }}</p>
@@ -32,7 +32,11 @@
                         </div>
                      </div>
                 </div>
+                <div v-if="cart.listItems.length > 0">
+                         <FormInput :dataStore="cart.listItems"/>
+                 </div>
          </div>
+     
     </div>
     <div v-else>
         <div class="flex flex-col items-center mt-10">  
@@ -41,13 +45,13 @@
           
              </div>
     </div>
-
+  
 </template>
 
 <script setup>
         import { onMounted } from 'vue';
 import cartStore from '../../store/store';
-
+import FormInput from './components/form-input.vue';
         const cart = cartStore();
 
         onMounted(() => {
