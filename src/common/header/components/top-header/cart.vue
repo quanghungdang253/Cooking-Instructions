@@ -1,7 +1,7 @@
 
 
 <template>
-  <div  v-if="cart.listItems.length > 0">  
+  <div>  
         <div class="relative">
             <router-link 
                 to="/Cart"
@@ -18,7 +18,13 @@
 
 
 <script setup>
+import { onMounted, watch } from 'vue';
 import cartStore from '../../../../store/store';
 const cart = cartStore();
+
+  
 import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+watch(cart.listItems, (newValue) => {
+      console.log("dũ liệu đã sẵn sàng + " + newValue)
+})
 </script>
