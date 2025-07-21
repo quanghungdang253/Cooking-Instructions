@@ -75,7 +75,7 @@
         import { useRouter } from 'vue-router';
         import listData from './components/handle-data';
         let handleOpen = ref(null);
-        let nameRouter = ref('');
+        let nameRouter = ref('home-course-detail');
         import listEndpoint from './components/list-endpoint';
         const router = useRouter();
         const handleNavigation = (endpoint, id) => {
