@@ -63,14 +63,14 @@ onMounted(() => {
 });
 
 
-onBeforeRouteUpdate((to, from, next) => {
-    if (to.params.endpoint !== from.params.endpoint) {
-             endpoint.value = to.params.endpoint;
-             fetchData(to.params.endpoint)
-            .then(() => next())
-            .catch(() => next());
-    } else {
-        next();
+watch(
+  () => route.params.endpoint,
+  (newEndpoint) => {
+    if (newEndpoint && newEndpoint !== endpoint.value) {
+      endpoint.value = newEndpoint
+      fetchData(newEndpoint)
     }
-});
+  },
+  { immediate: true }
+)
 </script>
