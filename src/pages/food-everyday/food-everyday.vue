@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref,watch } from 'vue';
 import { useRoute, onBeforeRouteUpdate } from 'vue-router';
   import endpointName from './components/endponit-name';
    import axiosClient from '../../api/axios-client';
