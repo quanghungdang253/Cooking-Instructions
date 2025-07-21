@@ -27,48 +27,50 @@
 </template>
 
 <script setup>
-    import { computed, onMounted, ref, watch } from 'vue';
-    import { useRoute } from 'vue-router';
-    import endpointName from './components/endponit-name';
-     import useCourseHome from '@/hooks/use-show-course/use-course-home';
-     import loading from '@/ui/loading.vue';
-  import { onBeforeRouteUpdate } from 'vue-router';
-     import axiosClient from '../../api/axios-client';
-    import listCourse from './components/list-courser.vue';
-    import sideBar from './components/side-bar.vue';
-    const router = useRoute();
-    const endpoint = computed(() => router.params.endpoint);
-    const id = computed(() => Number(router.params.id));
-    const arrayFood = ref([]);
-    const isLoading = ref(false);
+import { computed, onMounted, ref } from 'vue';
+import { useRoute, onBeforeRouteUpdate } from 'vue-router';
+  import endpointName from './components/endponit-name';
+   import axiosClient from '../../api/axios-client';
+import listCourse from './components/list-courser.vue';
+import sideBar from './components/side-bar.vue';
+import loading from '@/ui/loading.vue';
 
-    const nameCourser= computed(() => {
-        let name = endpointName.find((item) => item.en == endpoint.value);
-        return name;
-    })
-  
-    
-        const fetchData  =  async (newEndpoint = endpoint.value) => {
-             isLoading.value = true;
-            try {
-                const response = await axiosClient.get(`/data/data-food-everyday/${newEndpoint}.json`);
-                arrayFood.value = response;
-            } catch (error) {
-                console.log("Lỗi khi lấy dữ liệu " + error);
-            } finally {
-                 isLoading.value = false;
-            }
-              
+const route = useRoute();
+const endpoint = ref(route.params.endpoint);
+const id = computed(() => Number(route.params.id));
+const arrayFood = ref([]);
+const isLoading = ref(false);
 
-        }
-        onMounted(() => {
-                fetchData();
-        })
-
-onBeforeRouteUpdate(async (to) => {
-    if (to?.params?.endpoint !== endpoint.value) {
-        await fetchData(to.params.endpoint);
-    }
+const nameCourser = computed(() => {
+    return endpointName.find((item) => item.en === endpoint.value);
 });
 
+const fetchData = async (endpointValue) => {
+    isLoading.value = true;
+    try {
+        const response = await axiosClient.get(`/data/data-food-everyday/${endpointValue}.json`);
+        arrayFood.value = response;
+    } catch (error) {
+        console.error("Lỗi khi lấy dữ liệu", error);
+    } finally {
+        isLoading.value = false;
+    }
+};
+
+
+onMounted(() => {
+    fetchData(route.params.endpoint);
+});
+
+
+onBeforeRouteUpdate((to, from, next) => {
+    if (to.params.endpoint !== from.params.endpoint) {
+             endpoint.value = to.params.endpoint;
+             fetchData(to.params.endpoint)
+            .then(() => next())
+            .catch(() => next());
+    } else {
+        next();
+    }
+});
 </script>
