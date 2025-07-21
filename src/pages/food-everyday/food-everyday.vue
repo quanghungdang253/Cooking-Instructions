@@ -48,10 +48,10 @@
     })
   
     
-        const fetchData  =  async () => {
+        const fetchData  =  async (newEndpoint = endpoint.value) => {
              isLoading.value = true;
             try {
-                const response = await axiosClient.get(`/data/data-food-everyday/${endpoint.value}.json`);
+                const response = await axiosClient.get(`/data/data-food-everyday/${newEndpoint}.json`);
                 arrayFood.value = response;
             } catch (error) {
                 console.log("Lỗi khi lấy dữ liệu " + error);
