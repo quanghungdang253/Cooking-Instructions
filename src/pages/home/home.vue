@@ -69,8 +69,6 @@ import { onMounted } from 'vue';
                         <Title content="CHƯƠNG TRÌNH ĐÀO TẠO VỚI CÁC ĐẦU BẾP NỔI TIẾNG "/>
                   </div>
                         <studyProgram />
-               
-                
                   </div>
 
                   <div>

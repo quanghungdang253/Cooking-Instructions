@@ -2,13 +2,13 @@
 
 <template>
      <div class="relative  overflow-hidden h-[30em]">  
-        <transition name="fade-slide">
-           <div>    
+        <transition name="fade-slide" mode="in-out">
+           <div :key="listImg[index].id">    
                 <img 
                     :src="listImg[index].img" 
                     alt="" 
                     :key="listImg[index].id"
-                     :class="['w-full h-[30em] object-cover transition-img', 'active']"
+                     :class="['w-full h-[30em] object-cover ']"
                     
                >
                <div class="absolute top-36 left-[30em]" v-if="index == 0 || index == 1"> 
@@ -61,17 +61,9 @@
               id: 0, img: img1, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
             },
             {
-              id: 1, img: img2, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
+              id: 1, img: img2, title: "ĐĂNG KÝ HỌC NGAY HÔM NAY ", content:"Rất nhiều khóa học đang chờ bạn" 
             },
-            {
-              id: 2, img: img3, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
-            },
-            {
-              id: 3, img: img4, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
-            },
-            {
-              id: 4, img: img5, title: "HỌC NẤU ĂN GIA ĐÌNH", content:"Dạy nấu ăn gia đình chuyên nghiệp với các khóa học bếp gia đình độc đáo như bữa sáng thông minh, món ngon đãi tiệc, vào bếp cuối tuần" 
-            }
+         
          ];
         const listImg = ref(listImgSale);
         const index = ref(0);
@@ -79,7 +71,7 @@
         function handleTime(){
                     time.value = setInterval(() => {
                     index.value = (index.value + 1) % listImg.value.length;
-             }, 3000);
+             }, 5000);
         }
       
    const handleLeft = () => {
@@ -121,7 +113,7 @@
 }
 .fade-slide-leave-to {
   opacity: 0;
-  transform: translateX(-50px) scale(0.95); /* trượt ra và thu nhỏ */
+  transform: translateX(-50px) scale(0.15); /* trượt ra và thu nhỏ */
 }
 
 .transition-img {
@@ -131,14 +123,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 2s ease, opacity 2s ease; /* Thêm hiệu ứng transform + fade */
+  transition: transform 0.5s ease, opacity 2s ease; 
   opacity: 0;
-  transform: scale(1.05); /* bắt đầu từ scale to hơn */
+  transform: scale(1.05); 
 }
 
 .transition-img.active {
   opacity: 1;
-  transform: scale(1); /* từ từ phóng nhỏ lại đúng tỉ lệ */
+  transform: scale(1); 
 }
 
 
