@@ -49,14 +49,14 @@
   
     
         const fetchData  =  async (newEndpoint = endpoint.value) => {
-            //  isLoading.value = true;
+             isLoading.value = true;
             try {
                 const response = await axiosClient.get(`/data/data-food-everyday/${newEndpoint}.json`);
                 arrayFood.value = response;
             } catch (error) {
                 console.log("Lỗi khi lấy dữ liệu " + error);
             } finally {
-                //  isLoading.value = false;
+                 isLoading.value = false;
             }
               
 
@@ -65,12 +65,10 @@
                 fetchData();
         })
 
-onBeforeRouteUpdate(async (to, from, next) => {
-    if (to.params.endpoint !== from.params.endpoint) {
+onBeforeRouteUpdate(async (to) => {
+    if (to?.params?.endpoint !== endpoint.value) {
         await fetchData(to.params.endpoint);
     }
-    next();
 });
-
 
 </script>
