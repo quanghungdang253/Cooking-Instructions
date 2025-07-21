@@ -16,7 +16,7 @@
     </div>
     
         <div class="mt-[9em]">
-            <router-view :key="$route.fullPath" />
+            <router-view/>
         </div>
 
   
