@@ -2,10 +2,10 @@
 <template>
     <div class=""> 
  
-<div v-if="isLoading">
+<!-- <div v-if="isLoading">
         <loading />
-</div>
- <div v-else>  
+</div> -->
+ <div>  
     <div class=" bg-[url('https://img.pikbest.com/origin/09/75/54/92HpIkbEsTx3j.jpeg!w700wp')] "> 
           <div class="relative w-full flex items-center justify-center">  
          <div class="bg-slate-800 opacity-70 w-full h-20 flex items-center justify-center "> 
@@ -49,14 +49,14 @@
   
     
         const fetchData  =  async (newEndpoint = endpoint.value) => {
-             isLoading.value = true;
+            //  isLoading.value = true;
             try {
                 const response = await axiosClient.get(`/data/data-food-everyday/${newEndpoint}.json`);
                 arrayFood.value = response;
             } catch (error) {
                 console.log("Lỗi khi lấy dữ liệu " + error);
             } finally {
-                 isLoading.value = false;
+                //  isLoading.value = false;
             }
               
 
