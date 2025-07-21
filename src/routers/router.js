@@ -16,13 +16,17 @@
             id: 1 , path: "/About", name: "About" , component: About
         },
         {
-            id: 2, path:"/familyCookingCourse", name: "familyCookingCourse", component: familyCookingCourse
+            id: 2,
+            path:"/familyCookingCourse",
+            name: "familyCookingCourse", component: familyCookingCourse
         },
         {
-           id: 3, path: "/home-course-detail/:endpoint/:id", name:"home-course-detail", component: HomeCourseDetail
+           id: 3,
+           path: "/home-course-detail/:endpoint/:id", name:"home-course-detail", component: HomeCourseDetail
         },
         {
-           id: 4, path:"/health-articles-page/:endpoint/:id", name:"health-articles-page", component: healthArticlesPage
+           id: 4,
+           path:"/health-articles-page/:endpoint/:id", name:"health-articles-page", component: healthArticlesPage
         },
         {
            id: 5, path:"/food-everyday/:endpoint/:id", name:"food-everyday", component: foodEveryday
