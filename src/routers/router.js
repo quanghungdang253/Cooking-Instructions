@@ -5,7 +5,7 @@
     import About from '../pages/about/about.vue';
     import HomeCourseDetail from "../pages/home-course-detail/home-course-detail.vue";
     import familyCookingCourse from "@/pages/family-cooking-course/family-cooking-course.vue";
-
+    import healthArticlesPage from '@/pages/health-articles-page/health-articles-page.vue';
 
     const routes = [
         {
@@ -21,8 +21,12 @@
            id: 3, path: "/home-course-detail/:endpoint/:id", name:"home-course-detail", component: HomeCourseDetail
         },
         {
-            id: 4, path: "/Cart", name: "Cart", component: Cart
+           id: 4, path:"/health-articles-page/:endpoint/:id", name:"health-articles-page", component: healthArticlesPage
         },
+        {
+            id: 5, path: "/Cart", name: "Cart", component: Cart
+        },
+
          {
              path: "/:pathMatch(.*)*",
              redirect: "/"  // Hoặc có thể trỏ đến component 404

@@ -2,10 +2,14 @@
 
 
 <template>
-    <div class="mt-6">
+    <div class="mt-6 ">
         <Title content="ĐỘI NGŨ GIẢNG VIÊN" />
         <div class="flex justify-between mt-6 cursor-pointer">
-            <div 
+            <router-link 
+                :to="{name: 'health-articles-page', params: {
+                    endpoint: item.endpoint,
+                    id: item.id
+                }}"
                 v-for="(item , index) in dataTechers" 
                 :key="index"
                 class="flex flex-col items-center"
@@ -13,7 +17,7 @@
                     <img :src="item.img" :alt="item.name">
                     <h1 class="font-bold text-red-900"> {{ item.name }} </h1>
                     <p class="max-w-[20em] text-center font-bold font-mono"> {{ item.content }}</p>
-            </div>
+            </router-link>
         </div>
     </div>
 
