@@ -28,7 +28,7 @@
            id: 5, path:"/food-everyday/:endpoint/:id", name:"food-everyday", component: foodEveryday
         },
         {
-            id: 5, path: "/Cart", name: "Cart", component: Cart
+            id: 6, path: "/Cart", name: "Cart", component: Cart
         },
 
          {

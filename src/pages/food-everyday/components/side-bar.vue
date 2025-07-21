@@ -16,7 +16,7 @@
             "
             > KHÓA HỌC MUA NHIỀU 
         </h1>
-            <div class="shadow-2xl p-6 rounded-xl grid gap-4"> 
+            <div class="shadow-2xl p-6 rounded-xl grid gap-2"> 
                 <router-link 
                     :to="{
                         name: 'home-course-detail',
@@ -30,7 +30,7 @@
                     :key="index" class="mb-4  hover:translate-y-[-4px] duration-300 cursor-pointer 
                     
                     ">
-                    <div class="flex gap-4">
+                    <div class="flex gap-2">
                         <img :src="item.img" alt="" class="rounded-xl">
                         <div>
                             <h1 class="font-bold font-mono"> {{ item.nameCourser }}</h1>

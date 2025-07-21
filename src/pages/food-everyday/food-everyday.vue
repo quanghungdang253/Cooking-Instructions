@@ -1,7 +1,7 @@
 
 <template>
-    <div class="h-[5000px]"> 
-   <!-- Skeleton UI khi đang loading -->
+    <div class=""> 
+ 
 <div v-if="isLoading">
         <loading />
 </div>
@@ -11,12 +11,13 @@
          <div class="bg-slate-800 opacity-70 w-full h-20 flex items-center justify-center "> 
                 
          </div>
-         <h1 class="font-bold text-3xl font-mono text-white absolute  top-4 left-[50%]">  {{nameCourser?.vi }}  </h1>
+         <h1 class="font-bold text-3xl font-mono text-white absolute  top-4 left-[45%]">  {{nameCourser?.vi }}  </h1>
       </div>
          <div class="max-w-[1280px] mx-auto" v-if="arrayFood">
-            <div class="flex">
+            <div class="flex gap-4">
                  
                  <listCourse :data="arrayFood" :nameCourser="nameCourser?.vi"/>
+
                  <sideBar />
             </div>
          </div>
@@ -60,7 +61,10 @@
               
 
         }
-fetchData();
+        onMounted(() => {
+                fetchData();
+        })
+
 onBeforeRouteUpdate(async (to, from, next) => {
     if (to.params.endpoint !== from.params.endpoint) {
         await fetchData(to.params.endpoint);
@@ -68,12 +72,5 @@ onBeforeRouteUpdate(async (to, from, next) => {
     next();
 });
 
-// Hoặc có thể sử dụng watch như sau (nhưng onBeforeRouteUpdate tốt hơn)
-watch(endpoint, (newVal, oldVal) => {
-    if (newVal !== oldVal) {
-        fetchData(newVal);
-    }
-}, { immediate: true });
 
-  
 </script>

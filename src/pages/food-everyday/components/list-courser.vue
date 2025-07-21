@@ -3,7 +3,7 @@
     <div class="min-w-[70%]">
         <div>
                
-      <div v-if="data" class="grid grid-cols-3  mt-4" >
+      <div v-if="data" class="grid grid-cols-4 mt-4 gap-4" >
         <router-link 
             v-for="(item,index) in props.data" 
             :key="index"
@@ -50,8 +50,6 @@ import { watch } from 'vue';
             required: true
         }
     })
-onMounted(() => props.data, (newVal) => {
-  console.log('Dữ liệu mới nhận:', newVal);
-});
+
    
 </script>

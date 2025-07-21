@@ -16,19 +16,20 @@
     </div>
     
         <div class="mt-[9em]">
-            <router-view/>
+            <router-view :key="$route.fullPath" />
         </div>
 
-    <div class="mt-10">
-        <Footer />
-    </div>
+  
     <div class="fixed bottom-0 left-0">
             <iconPhone />
     </div>
     <div class="fixed right-0 bottom-0">
             <iconContact />
     </div>
+     <div class=" absolute bottom-0 w-full">
+        <Footer />
+    </div>
       </div>
-   <router-view :key="$route.fullPath" />
-
+ 
+ 
 </template> 
