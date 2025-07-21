@@ -29,5 +29,6 @@
             <iconContact />
     </div>
       </div>
-   
+   <router-view :key="$route.fullPath" />
+
 </template> 

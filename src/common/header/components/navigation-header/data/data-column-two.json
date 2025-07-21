@@ -1,92 +1,92 @@
 [
     {
-        "id": 1, "name": "Món Xào"
+        "id": 1, "name": "Món Xào","endpoint": "stir-fried-dish"
     },
     {
-        "id": 2, "name": "Món kho"
+        "id": 2, "name": "Món kho", "endpoint":"braised-dish"
     },
     {
-        "id": 3, "name": "Món hầm"
+        "id": 3, "name": "Món hầm", "endponit": "stew"
     },
     {
-        "id": 4, "name": "Món hấp"
+        "id": 4, "name": "Món hấp", "endponit": "steamed-dish"
     },
     {
-        "id": 5, "name": "Món chiên"
+        "id": 5, "name": "Món chiên","endpoint": "fried-dish"
     },
     {
-        "id": 6, "name": "Món Nướng"
+        "id": 6, "name": "Món Nướng","endpoint": "grilled-dish"
     },
     {
-        "id": 7, "name": "Món bánh"
+        "id": 7, "name": "Món bánh","endpoint": "cake"
     },
     {
-        "id": 8, "name": "Món bún "
+        "id": 8, "name": "Món bún ","endpoint": "rice-noodle-dish"
     },
     {
-        "id": 9, "name": "Món canh"
+        "id": 9, "name": "Món canh","endpoint": "soup"
     },
     {
-        "id": 10, "name": "Món chả"
+        "id": 10, "name": "Món chả", "endpoint":"meat-patty" 
     },
      {
-        "id": 1, "name": "Món nem"
+        "id": 1, "name": "Món nem", "endpoint": "spring-roll"
     },
     {
-        "id": 2, "name": "Món cơm"
+        "id": 2, "name": "Món cơm","endpoint": "rice-dish"
     },
     {
-        "id": 3, "name": "Món cháo"
+        "id": 3, "name": "Món cháo","endpoint": "porridge"
     },
     {
-        "id": 4, "name": "Món súp"
+        "id": 4, "name": "Món súp","endpoint": "thick-soup"
     },
     {
-        "id": 5, "name": "Món lẩu"
+        "id": 5, "name": "Món lẩu","endpoint":  "hotpot"
     },
     {
-        "id": 6, "name": "Món phở"
+        "id": 6, "name": "Món phở","endpoint": "pho"
     },
     {
-        "id": 7, "name": "Món gỏi"
+        "id": 7, "name": "Món gỏi","endpoint": "salad"
     },
     {
-        "id": 8, "name": "Món chua ngọt"
+        "id": 8, "name": "Món chua ngọt","endpoint":"sweet-and-sour-dish"
     },
     {
-        "id": 9, "name": "Món kim chi"
+        "id": 9, "name": "Món kim chi","endpoint": "kimchi"
     },
     {
-        "id": 10, "name": "Món salad "
+        "id": 10, "name": "Món salad ","endpoint": "salad-food"
     },
      {
-        "id": 1, "name": "Món giò thủ "
+        "id": 1, "name": "Món giò thủ ","endpoint":"pork-head-cheese"
     },
     {
-        "id": 2, "name": "Món xôi "
+        "id": 2, "name": "Món xôi ","endpoint":"sticky-rice"
     },
     {
-        "id": 3, "name": "Món chè"
+        "id": 3, "name": "Món chè","endpoint":"sweet-soup"
     },
     {
-        "id": 4, "name": "Món mứt"
+        "id": 4, "name": "Món mứt","endpoint":"candied-fruit"
     },
     {
-        "id": 5, "name": "Món kem"
+        "id": 5, "name": "Món kem","endpoint": "ice-cream"
     },
     {
-        "id": 6, "name": "Đồ uống"
+        "id": 6, "name": "Đồ uống","endpoint": "drinks"
     },
     {
-        "id": 7, "name": "Công thức tổng hợp "
+        "id": 7, "name": "Công thức tổng hợp ","endpoint": "general-recipe"
     },
     {
-        "id": 8, "name": "Món ăn đường phố "
+    "id": 8, "name": "Món ăn đường phố ","endpoint":"street-food"
     },
     {
-        "id": 9, "name": "Món ngon 3 Miền"
+        "id": 9, "name": "Món ngon 3 Miền","endpoint": "specialties "
     },
     {
-        "id": 10, "name": "Món ăn bổ dưỡng "
+        "id": 10, "name": "Món ăn bổ dưỡng ","endpoint":"nutritious-dish"
     }
 ]

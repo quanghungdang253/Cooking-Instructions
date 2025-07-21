@@ -38,7 +38,7 @@
                 import { computed ,onMounted,ref,watch} from 'vue';
                 import HomeCourseDetail from '../../hooks/use-handle-detail/use-home-course-detail';
                 import homeCourseFooter from './components/home-course-footer.vue';
-                import homeSideBar from './components/home-side-bar.vue';
+                import homeSideBar from '../../components/home-side-bar.vue';
                 import studyProgram from '../family-cooking-course/components/study-program.vue';
                 import listCourse from '../home/components/main-content/list-course.vue';
                 import Table from '../../ui/table.vue';

@@ -75,11 +75,17 @@
         import { useRouter } from 'vue-router';
         import listData from './components/handle-data';
         let handleOpen = ref(null);
-
+        let nameRouter = ref('');
+        import listEndpoint from './components/list-endpoint';
         const router = useRouter();
         const handleNavigation = (endpoint, id) => {
+          if(listEndpoint.includes(endpoint)){
+                nameRouter.value = "food-everyday";
+          }else {
+                nameRouter.value = "home-course-detail"
+          }
             router.push({
-              name: 'home-course-detail',
+              name: nameRouter.value,
               params: {
                endpoint,
                  id

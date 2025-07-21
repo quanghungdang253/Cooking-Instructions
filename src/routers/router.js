@@ -6,6 +6,7 @@
     import HomeCourseDetail from "../pages/home-course-detail/home-course-detail.vue";
     import familyCookingCourse from "@/pages/family-cooking-course/family-cooking-course.vue";
     import healthArticlesPage from '@/pages/health-articles-page/health-articles-page.vue';
+    import foodEveryday from '@/pages/food-everyday/food-everyday.vue';
 
     const routes = [
         {
@@ -22,6 +23,9 @@
         },
         {
            id: 4, path:"/health-articles-page/:endpoint/:id", name:"health-articles-page", component: healthArticlesPage
+        },
+        {
+           id: 5, path:"/food-everyday/:endpoint/:id", name:"food-everyday", component: foodEveryday
         },
         {
             id: 5, path: "/Cart", name: "Cart", component: Cart

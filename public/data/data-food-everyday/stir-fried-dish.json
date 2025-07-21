@@ -1,0 +1,221 @@
+[
+    {
+        "id": 0,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+        "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 1,
+        "name": "Bún Gạo Xào",
+        "price":"199.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/bun-gao-xao-thap-cam.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 2,
+        "name": "Lươn xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/luon-xao-lan.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 3,
+        "name": "Đậu Hà Lan Xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/dau-ha-lan-xao-thap-cam.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 4,
+        "name": "Cà tím xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/ca-tim-xao-thit-bam.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 5,
+        "name": "Nấm Xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/nam-xao-thit-bo-247x165.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 6,
+        "name": "Ốc hương xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/oc-huong-xao-me.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 7,
+        "name": "Su Hào Xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/su-hao-xao-thit-lon.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 8,
+        "name": "Bắp Cải Xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/bap-cai-xao-trung.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 9,
+        "name": "Mực Xào Dưa Leo",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/muc-xao-dua-leo-ca-chua-247x165.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 10,
+        "name": "Ốc Móng Tay Xào",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/oc-mong-tay-xao-bo-toi-247x165.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 11,
+        "name": "Thịt Bò Xào Khoai Tây",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/thit-bo-xao-khoai-tay.jpgg",
+         "endpoint":"stir-fried-dish"
+    },
+      {
+        "id": 12,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 13,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 14,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 15,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 16,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 17,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 18,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 19,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 20,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 21,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 22,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 23,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 24,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 25,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 26,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 27,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 28,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 29,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    },
+    {
+        "id": 30,
+        "name": "Sườn xào chua ngọt",
+        "price":"99.000 - 299.000",
+        "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+         "endpoint":"stir-fried-dish"
+    }
+
+
+]
