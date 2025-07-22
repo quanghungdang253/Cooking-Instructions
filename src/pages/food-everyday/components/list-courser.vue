@@ -3,8 +3,9 @@
     <div class="min-w-[70%]">
         <div>
                
-      <div v-if="data" class="grid grid-cols-4 mt-4 gap-4" >
+      <div  class="grid grid-cols-4 mt-4 gap-4" >
         <router-link 
+        to="/"
             v-for="(item,index) in props.data" 
             :key="index"
             class="

@@ -13,13 +13,16 @@
          </div>
          <h1 class="font-bold text-3xl font-mono text-white absolute  top-4 left-[45%]">  {{nameCourser?.vi }}  </h1>
       </div>
-         <div class="max-w-[1280px] mx-auto" v-if="arrayFood">
+         <div class="max-w-[1280px] mx-auto" v-if="listData && listData.length > 0">
             <div class="flex gap-4">
                  
-                 <listCourse :data="arrayFood" :nameCourser="nameCourser?.vi"/>
+                 <listCourse :data="listData" :nameCourser="nameCourser?.vi"/>
 
                  <sideBar />
             </div>
+         </div>
+         <div v-else>
+                <h1> CHưa có dữ liệu </h1>
          </div>
     </div>
 </div>
@@ -34,43 +37,47 @@ import { useRoute, onBeforeRouteUpdate } from 'vue-router';
 import listCourse from './components/list-courser.vue';
 import sideBar from './components/side-bar.vue';
 import loading from '@/ui/loading.vue';
+import HomeCourseDetail from '@/hooks/use-handle-detail/use-home-course-detail';
 
 const route = useRoute();
-const endpoint = ref(route.params.endpoint);
+const endpoint = computed(() => route.params.endpoint);
 const id = computed(() => Number(route.params.id));
-const arrayFood = ref([]);
+
 const isLoading = ref(false);
 
+
+
+
+
+
+      const {listData} =  HomeCourseDetail(endpoint);
+
+  
+console.log(listData);
 const nameCourser = computed(() => {
     return endpointName.find((item) => item.en === endpoint.value);
 });
 
-const fetchData = async (endpointValue) => {
-    isLoading.value = true;
-    try {
-        const response = await axiosClient.get(`/data/data-food-everyday/${endpointValue}.json`);
-        arrayFood.value = response;
-    } catch (error) {
-        console.error("Lỗi khi lấy dữ liệu", error);
-    } finally {
-        isLoading.value = false;
-    }
-};
-
-
-onMounted(() => {
-    fetchData(route.params.endpoint);
-});
-
-
-watch(
-  () => route.params.endpoint,
-  (newEndpoint) => {
-    if (newEndpoint && newEndpoint !== endpoint.value) {
-      endpoint.value = newEndpoint
-      fetchData(newEndpoint)
-    }
-  },
-  { immediate: true }
-)
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
