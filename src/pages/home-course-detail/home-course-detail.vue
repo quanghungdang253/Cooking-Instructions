@@ -47,6 +47,7 @@
         
         import HomeCourseMain from './components/home-course-main.vue';
         const endpoint = computed(() => route.params.endpoint);
+        alert(endpoint.value)
        const id = computed(() => Number(route.params.id));
 
        onMounted(() => {

@@ -78,6 +78,7 @@
         let nameRouter = ref('home-course-detail');
         import listEndpoint from './components/list-endpoint';
         const router = useRouter();
+    
         const handleNavigation = (endpoint, id) => {
           if(listEndpoint.includes(endpoint)){
                 nameRouter.value = "food-everyday";
@@ -92,7 +93,7 @@
              }
             })
         }
-        
+           
     </script> 
 
 <style scoped>

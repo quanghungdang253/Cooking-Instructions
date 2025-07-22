@@ -6,10 +6,10 @@
         "id": 2, "name": "Món kho", "endpoint":"braised-dish"
     },
     {
-        "id": 3, "name": "Món hầm", "endponit": "stew"
+        "id": 3, "name": "Món hầm", "endpoint": "stew"
     },
     {
-        "id": 4, "name": "Món hấp", "endponit": "steamed-dish"
+        "id": 4, "name": "Món hấp", "endpoint": "steamed-dish"
     },
     {
         "id": 5, "name": "Món chiên","endpoint": "fried-dish"
@@ -84,7 +84,7 @@
     "id": 8, "name": "Món ăn đường phố ","endpoint":"street-food"
     },
     {
-        "id": 9, "name": "Món ngon 3 Miền","endpoint": "specialties "
+        "id": 9, "name": "Món ngon 3 Miền","endpoint": "specialties"
     },
     {
         "id": 10, "name": "Món ăn bổ dưỡng ","endpoint":"nutritious-dish"

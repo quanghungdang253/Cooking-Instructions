@@ -26,7 +26,7 @@ console.log(endpoint.value);
             nameFolder.value = "data-courser";
     }
 
-            const data = await axiosClient.get(`/data-detail/${ nameFolder.value}/${endpoint.value}.json`);
+            const data = await axiosClient.get(`/data-detail/${nameFolder.value}/${endpoint.value}.json`);
         
            
             if(data){
