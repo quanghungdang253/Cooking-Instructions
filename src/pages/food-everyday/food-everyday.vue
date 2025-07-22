@@ -37,16 +37,16 @@ import { useRoute, onBeforeRouteUpdate } from 'vue-router';
 import listCourse from './components/list-courser.vue';
 import sideBar from './components/side-bar.vue';
 import loading from '@/ui/loading.vue';
-import HomeCourseDetail from '@/hooks/use-handle-detail/use-home-course-detail';
+import HomeCourseDetail from '../../hooks/use-handle-detail/use-home-course-detail';
 
 const route = useRoute();
 const endpoint = computed(() => route.params.endpoint);
 const id = computed(() => Number(route.params.id));
 
-// const isLoading = ref(false);
 
 
-      const {listData} =  HomeCourseDetail(endpoint);
+   const {listData} =  HomeCourseDetail(endpoint);
+   
 
   
 console.log(listData);
