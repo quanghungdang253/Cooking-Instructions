@@ -11,7 +11,7 @@
                             
                         </p>
                         <p> 
-                            <strong> 195 – 197 Xô Viết Nghệ Tĩnh, Phường Cẩm Lệ, TP. Đà Nẵng </strong>
+                            <strong> 195 – 197 Xô Viết Nghệ Tĩnh, Phường Cẩm Lệ, Thành phố Đà Nẵng </strong>
                             
                         </p>
                         <p> 
