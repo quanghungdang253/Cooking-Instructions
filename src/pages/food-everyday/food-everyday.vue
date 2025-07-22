@@ -43,11 +43,7 @@ const route = useRoute();
 const endpoint = computed(() => route.params.endpoint);
 const id = computed(() => Number(route.params.id));
 
-const isLoading = ref(false);
-
-
-
-
+// const isLoading = ref(false);
 
 
       const {listData} =  HomeCourseDetail(endpoint);
