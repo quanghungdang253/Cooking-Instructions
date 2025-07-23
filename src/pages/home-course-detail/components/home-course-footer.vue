@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="max-w-[60em] bg-white p-6">  
+    <div class="max-w-[60em] bg-white p-6" v-if="listData">  
         <div
              v-if="listData.endpoint == 'data-study-program'"
              class=""

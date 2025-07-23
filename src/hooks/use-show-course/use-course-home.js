@@ -1,5 +1,5 @@
 import axiosClient from "../../api/axios-client";
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 
 const useCourseHome = (url) => {
     let data = ref([]);
@@ -15,6 +15,10 @@ const useCourseHome = (url) => {
 }
        
 onMounted(() => {
+        fetchData();
+})
+
+watch(url , () => {
         fetchData();
 })
 

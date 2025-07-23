@@ -31,6 +31,7 @@
    import { computed, onMounted, ref,watch } from 'vue';
    import { useRoute, onBeforeRouteUpdate } from 'vue-router';
    import endpointName from './components/endponit-name';
+   import useFoodEveryDay from '@/hooks/use-food-every-day/use-food-every-day';
       import axiosClient from '../../api/axios-client';
    import listCourse from './components/list-courser.vue';
    import sideBar from './components/side-bar.vue';
@@ -46,10 +47,12 @@
   
       const url = computed(() => `/data/data-food-everyday/${endpoint.value}.json`);
       
-         const {data} =  useCourseHome(url.value);
-    
+         const {data} =  useFoodEveryDay(url);
    
    
+   // watch(endpoint , (newUrl) => {
+   //          useCourseHome(newUrl.value);
+   // })
    
    const nameCourser = computed(() => {
       return endpointName.find((item) => item.en === endpoint.value);
