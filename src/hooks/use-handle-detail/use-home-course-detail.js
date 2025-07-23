@@ -20,7 +20,7 @@ console.log(endpoint.value);
     }else if(dataTeacher.includes(endpoint.value)) {
             nameFolder.value = "data-Instructor-information";
     }else if(listEndpoint.includes(endpoint.value)){
-            nameFolder.value = "data-food-everyday";
+            nameFolder.value = "data-detail-food-everyday";
     }
     else {
             nameFolder.value = "data-courser";
@@ -37,9 +37,9 @@ console.log(endpoint.value);
             console.log("lỗi lấy dữ liệu " + error)
         }
     }
-    // onMounted(() => {
-    //     handleGetData();
-    // })
+    onMounted(() => {
+        handleGetData();
+    })
       watch(endpoint, handleGetData, { immediate: true });
     return { listData }
 }

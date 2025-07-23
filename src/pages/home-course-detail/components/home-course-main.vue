@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="mt-10 font-mono" v-if="listData" >
+    <div class="mt-10 font-mono bg-white p-4" v-if="listData" >
         <div class="flex gap-10">
                 <img :src="listData.img" alt="" class="max-w-[25em]">
                  <div class="text-start">

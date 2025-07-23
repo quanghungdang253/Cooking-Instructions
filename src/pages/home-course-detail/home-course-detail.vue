@@ -1,7 +1,7 @@
 
 
         <template>
-           <div class="shadow ">  
+           <div class="shadow  bg-no-repeat w-full min-h-screen bg-white">  
                 <div class="max-w-[1280px] mx-auto ">
                     <div class="flex items-start shadow-2xl p-6">   
                         <div class=" shadow-2xl p-4">   
