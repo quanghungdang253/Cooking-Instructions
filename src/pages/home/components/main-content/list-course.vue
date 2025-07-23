@@ -74,12 +74,13 @@
 
 
 <script setup>
-        import { defineProps, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+        import { computed, defineProps, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/solid'
         import useCourseHome from '../../../../hooks/use-show-course/use-course-home';
      const containerScroll = ref(null);
      const widthScroll = 300;
      let time = ref(null);
+     const nameUrl = computed(() => url.nameUrl);
         const url = defineProps({
             nameUrl : {
                 type: String,
@@ -105,9 +106,9 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
        onBeforeUnmount(() => {
                 clearInterval(time)
        })
-        const {data} = useCourseHome(url.nameUrl);
+        const {data} = useCourseHome(nameUrl);
         const title = url.title;
-        watch(data, (newData) => {
+        watch(data, nameUrl, (newData) => {
             console.log("dữ liệu đã tải xong " , newData);
         })
         

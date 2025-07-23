@@ -45,7 +45,8 @@
 
   
       const url = computed(() => `/data/data-food-everyday/${endpoint.value}.json`);
-          const {data} =  useCourseHome(url);
+      
+         const {data} =  useCourseHome(url);
     
    
    

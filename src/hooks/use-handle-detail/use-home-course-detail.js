@@ -1,4 +1,4 @@
-import { onMounted, ref ,watch } from "vue";
+import { computed, onMounted, ref ,watch } from "vue";
 import axiosClient from "../../api/axios-client";
 import listEndpoint from '../../common/header/components/navigation-header/components/list-endpoint';
 const HomeCourseDetail = (endpoint) => {
@@ -26,6 +26,7 @@ console.log(endpoint.value);
             nameFolder.value = "data-courser";
     }
 
+
             const data = await axiosClient.get(`/data-detail/${nameFolder.value}/${endpoint.value}.json`);
         
            
@@ -37,9 +38,9 @@ console.log(endpoint.value);
             console.log("lỗi lấy dữ liệu " + error)
         }
     }
-    onMounted(() => {
-        handleGetData();
-    })
+//     onMounted(() => {
+//         handleGetData();
+//     })
       watch(endpoint, handleGetData, { immediate: true });
     return { listData }
 }
