@@ -46,9 +46,9 @@
                 const route = useRoute();
         
         import HomeCourseMain from './components/home-course-main.vue';
-        const endpoint = computed(() => route.params.endpoint);
+        const endpoint = ref(route.params.endpoint);
 
-       const id = computed(() => Number(route.params.id));
+       const id = ref(Number(route.params.id));
 
        onMounted(() => {
         window.scrollTo({
@@ -58,6 +58,11 @@
        })
                 const {listData} = HomeCourseDetail(endpoint);
        
+                
+   watch(() => route.params.endpoint ,route.params.id  , (newVal) => {
+        endpoint.value = newVal;
+});
+
                 const selectedItem = computed(() => {
                           return Array.isArray(listData.value)
           ? listData.value.find((item) => item.id === id.value) || null

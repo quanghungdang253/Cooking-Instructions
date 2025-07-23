@@ -80,8 +80,7 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
      const containerScroll = ref(null);
      const widthScroll = 300;
      let time = ref(null);
-     const nameUrl = computed(() => url.nameUrl);
-        const url = defineProps({
+       const url = defineProps({
             nameUrl : {
                 type: String,
                 required: true
@@ -91,6 +90,8 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
                 required: true
             }
         })
+     const nameUrl = computed(() => url.nameUrl);
+      
        const handleScrollLeft = () => {
             containerScroll.value.scrollLeft -= widthScroll;
        }
@@ -106,7 +107,7 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
        onBeforeUnmount(() => {
                 clearInterval(time)
        })
-        const {data} = useCourseHome(nameUrl);
+        const {data} = useCourseHome(nameUrl.value);
         const title = url.title;
         watch(data, nameUrl, (newData) => {
             console.log("dữ liệu đã tải xong " , newData);
