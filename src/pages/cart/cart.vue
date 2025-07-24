@@ -63,12 +63,11 @@
     </div>
 
 
-         <div v-if="cart.listItems.length > 0" class="flex justify-between mt-10">
+         <div 
+          v-if="cart.listItems.length > 0" 
+          class="flex justify-between mt-10">
 
-                         <FormInput :dataStore="cart.listItems"/>
-
-
-
+      
         <div class="border border-black min-w-[25em] p-2">
             <div>
                 <h1 class="bg-stone-900 text-white text-center p-2 font-bold"> THÔNG TIN KHÓA HỌC</h1>
@@ -95,12 +94,23 @@
                          <h1 class="text-red-500 font-bold">    {{ formatNumber(totalPrice()) }} vnđ </h1>  
                          </div>
                     </div>
-              
-                            </div>
-                      </div>
-                 </div>
-         </div>
-     
+                </div>
+                               <div>
+     <button
+       @click="goToForm"
+        class="
+         bg-green-600
+         text-white
+           px-6 py-3 
+           font-bold rounded-xl
+           hover:bg-green-700 transition">   
+           THANH TOÁN
+      </button>
+       </div>
+    </div>
+  </div>
+</div>
+    
     </div>
 
     <div v-else>
@@ -115,27 +125,50 @@
         import { onMounted } from 'vue';
         import { TrashIcon } from '@heroicons/vue/24/outline' 
         import cartStore from '../../store/store';
-    import FormInput from './components/form-input.vue';
+        import FormInput from './components/form-input.vue';
 
+
+        
+        const cart = cartStore();
 const convertNumber = (price) => {
-  console.log(price)
-     return parseFloat(price.replace(/\./g, ''));
+  if(!price) {
+      return 0;
+  }else {
+    return parseFloat(price.toString().replace(/\./g, ''));
+  }
+
 }
-const formatNumber = (number) => {
-  // Định dạng lại thành dạng có dấu "."
-  return number.toLocaleString('vi-VN');
+
+const goToForm = () => {
+    const cartData = cart.listItems;
+    if(cartData.length === 0) {
+        alert("giỏ hàng đang trống");
+        return;
+    }
+
+const encodedCart = encodeURIComponent(JSON.stringify(cartData));
+   window.open(
+      `https://quanghung.kesug.com/form-input.html?cart=${encodedCart}`,
+      '_blank',
+      'width=400,height=1000,left=800 top=900 text-center flex-col items-center'
+    );
 }
 
 const totalPrice = () => {
-  return cart.listItems.reduce((sum, item) => {
-         if (!item.price || !item.quantity) return sum;
-            return sum + convertNumber(item.price) * item.quantity;
-  }, 0);
-};
+    return cart.listItems.reduce((sum,item) => {
+          if(!item.price || !item.quantity) {
+            return sum;
+          } else {
+              return sum + convertNumber(item.price) * item.quantity;
+          }
+    }, 0)
+}
 
-        const cart = cartStore();
-
-        onMounted(() => {
-                  console.log("dữ liệu của giỏ hàng là " + cart.listItems);
-        })
+const formatNumber = (number) => {
+ 
+  return Number(number).toLocaleString('vi-VN');
+}
+ onMounted(() => {
+         console.log("dữ liệu của giỏ hàng là " + cart.listItems);
+  })
 </script>
