@@ -95,34 +95,7 @@
                          <h1 class="text-red-500 font-bold">    {{ formatNumber(totalPrice()) }} vnđ </h1>  
                          </div>
                     </div>
-                    
-                <div>
-                    
-                                <h1> HÌNH THỨC THANH TOÁN </h1>
-                        <div class="flex items-center gap-2">
-                               <input type="radio" name="payment">
-                              <strong>Chuyển khoản ngân hàng   </strong>
-                        </div>
-                         <div  class="flex items-center gap-2">
-                               <input type="radio" name="payment">
-                              <strong> Thanh toán bằng ví MOMO  </strong>
-                        </div  class="flex items-center gap-2">
-                         <div  class="flex items-center gap-2">
-                               <input type="radio"  name="payment">
-                              <strong> Thanh toán bằng thẻ nội địa  </strong>
-                        </div >
-                        <div>
-                                <img src="https://daubepgiadinh.vn/wp-content/plugins/onepay-payment-gateway-for-woocommerce-atmcard/OPATM.png" alt="">
-                        </div>
-                         <div  class="flex items-center gap-2">
-                               <input type="radio" name="payment">
-                               <h3> Thanh toán bằng thẻ quốc tế </h3>
-                               <img src="https://daubepgiadinh.vn/wp-content/plugins/onepay-payment-gateway-for-woocommerce-creditcard/US.png" alt="">
-                        </div>
-                        <div class="flex justify-center mt-10">
-                                <button class="inline-block p-4 rounded-lg bg-orange-500 text-white font-bold text-center"> TIẾN HÀNH THANH TOÁN  </button>
-                        </div>
-                 </div>
+              
                             </div>
                       </div>
                  </div>

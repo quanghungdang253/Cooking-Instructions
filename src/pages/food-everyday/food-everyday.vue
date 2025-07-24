@@ -119,13 +119,13 @@ watch(select, (newValue) => {
 })
 watch(endpoint, () => {
 
-  listPopularity.value = [];
-      listRating.value = [];
+          listPopularity.value = [];
+          listRating.value = [];
           listDate.value = [];
-        listPriceAsc.value = [];
-  listPriceDesc.value = [];
+          listPriceAsc.value = [];
+          listPriceDesc.value = [];
 
-  select.value = 'default';
+            select.value = 'default';
 });
 
 
