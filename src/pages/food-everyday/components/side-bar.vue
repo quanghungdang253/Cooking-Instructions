@@ -7,12 +7,12 @@
             <h1 
                 class="
                 font-bold
-              bg-red-600
+              bg-green-700
                text-white
                text-center
-               p-4
+               p-2
                mb-4
-               rounded-xl
+               rounded-sm
             "
             > KHÓA HỌC MUA NHIỀU 
         </h1>

@@ -1,11 +1,19 @@
 
 <template>
-    <div class="min-w-[70%]">
+    <div class="min-w-[70%]" v-if="props.data">
         <div>
                
       <div  class="grid grid-cols-4 mt-4 gap-4" >
         <router-link 
-        to="/"
+        :to="{
+                name: 'food-everyday-detail',
+                params: {
+                    endpoint: item.endpoint,
+                    price: item.price,
+                    id: item.id
+                } 
+            }
+        "
             v-for="(item,index) in props.data" 
             :key="index"
             class="

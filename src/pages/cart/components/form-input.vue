@@ -1,7 +1,7 @@
 
 <template>
     <div class="flex justify-between mt-4">
-        <div class="grid gap-4">
+        <div class="grid gap-4 h-[500px]">
             <h1> THÔNG TIN HỌC VIÊN </h1>
             <hr>
             <div>
@@ -46,13 +46,16 @@
                         <h1 >{{ item.name }}</h1>
                         <h1 class="text-red-500 font-bold">{{   item.price  }} vnđ</h1>  
                     </div>
-                          <div   class="flex justify-between p-2 font-bold">  
+                          
+                      </div>
+                      <div   class="flex justify-between p-2 font-bold">  
                              <h1> TẠM TÍNH </h1>
                             <h1 class="text-red-500 font-bold">{{  convertNumber   }} vnđ</h1>  
                          </div>
-                      </div>
                     </div>
+                    
                 <div >
+                    
                         <h1> HÌNH THỨC THANH TOÁN </h1>
                         <div class="flex items-center gap-2">
                                <input type="radio" name="payment">

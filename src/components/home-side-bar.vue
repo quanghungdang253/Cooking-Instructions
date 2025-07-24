@@ -1,8 +1,9 @@
 
 
 <template>
-    <div v-if="listData">
-        <div>
+    <div class="flex flex-col">  
+    <div v-if="listData" class="flex">
+        <div class="">
             <h1 
                 class="
                 font-bold
@@ -41,8 +42,10 @@
         </div>
     </div>
 
+
+
        <div>
-        <div>
+          <div>
             <h1 
                 class="
                 font-bold
@@ -75,6 +78,7 @@
                 </router-link>
             </div>
         </div>
+    </div>
     </div>
 </template>
 
