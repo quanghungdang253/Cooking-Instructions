@@ -59,7 +59,7 @@
 import { useRouter } from 'vue-router'
 import { ref } from 'vue';
 const alert = ref(false);
-
+const showPrice = ref(0);
 const router = useRouter()
 
   const cart = cartStore();
@@ -69,23 +69,42 @@ const router = useRouter()
                 required: true
             }
         })
-   const Courser = {
-            name: props.listData.name,
-            price: props.listData.price,
-            img: props.listData.img
-    }
+const formatNumber = (number) => {
+  return Number(number).toLocaleString('vi-VN');
+};
   const handleRegister = () => {
-               cart.addItem(Courser);
+     const price = Number(props.listData.price.replace(/\./g, '')) || 0;
+  const priceFormatted = formatNumber(price);
+      const courser = {
+    id: props.listData.id,
+    name: props.listData.name,
+    price: priceFormatted,
+    img: props.listData.img,
+    quantity: 1
+  };
+               cart.addItem(courser);
      
         router.push("/Cart")
 
   }
 
   const handleAddCurser = () => {
-       
-        cart.addItem(Courser);
+     const price = Number(props.listData.price.replace(/\./g, '')) || 0;
+  const priceFormatted = formatNumber(price);
+
+         const courser = {
+    id: props.listData.id,
+    name: props.listData.name,
+    price: priceFormatted,
+    img: props.listData.img,
+    quantity: 1
+  };
+
+        cart.addItem(courser);
         alert.value = true;
-         
+           setTimeout(() => {
+    alert.value = false;
+  }, 2000);
   }
       
 </script>

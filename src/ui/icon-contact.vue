@@ -20,7 +20,7 @@
 </script> -->
 
 <template>
-    <div class="bg-yellow-400 p-4 rounded-[999px] shadow-2xl border border-black"> 
+    <div class="bg-white p-4 rounded-[999px] shadow-2xl border border-black"> 
   <div class="
     w-8 h-8 overflow-hidden relative  ">
     <transition name="slide-fade" mode="out-in">

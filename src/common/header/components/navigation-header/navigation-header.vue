@@ -28,7 +28,10 @@
                         <div class="flex gap-10">
                             <router-link 
                              to=""
-                              class=" py-2 px-4 rounded-md font-bold flex items-center"> Đăng Nhập  </router-link>
+                              class=" py-2 px-4 rounded-md font-bold flex items-center">
+                                 
+                                 Tra cứu
+                            </router-link>
                             <router-link  class=" py-2 px-4  rounded-md font-bold  flex items-center" to=""> Đăng Ký  </router-link>
                          </div>
              </div>
@@ -75,7 +78,9 @@
         import { useRouter } from 'vue-router';
         import listData from './components/handle-data';
         let handleOpen = ref(null);
+        import { MagnifyingGlassIcon } from '@heroicons/vue/24/outline'
         let nameRouter = ref('home-course-detail');
+        import { DocumentMagnifyingGlassIcon } from '@heroicons/vue/24/outline'
         import listEndpoint from './components/list-endpoint';
         const router = useRouter();
     

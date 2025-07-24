@@ -26,7 +26,7 @@
     <div class="fixed right-0 bottom-0">
             <iconContact />
     </div>
-     <div class=" absolute bottom-0 w-full">
+     <div class="">
         <Footer />
     </div>
       </div>

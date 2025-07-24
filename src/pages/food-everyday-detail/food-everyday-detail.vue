@@ -18,8 +18,7 @@
                 </div>
                 
             </div>
-                <h1> XIn chàofefefefee </h1>
-                <h1> Giá sản phẩm là : {{ price }}</h1>
+            
                 </div>
             </div>
 

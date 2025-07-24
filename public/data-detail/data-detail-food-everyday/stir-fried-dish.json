@@ -1,9 +1,9 @@
 [
      {
         "id": 0,
-        "name": "Cá Chép kho nghệ",
+        "name": "Cá kèo rau răm",
         "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
-        "price": "1.600.000 ",
+         "price": "199.000",
         "endpoint": "",
         "describe": 
             {
@@ -87,7 +87,7 @@
               
             },
              {
-                "id": 4, "nameCourser": "Thịt heo kho", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/thit-heo-kho-247x165.jpg", "price":"1.600.000 ",
+                "id": 4, "nameCourser": "Thịt heo kho", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-tau-100x100.jpg", "price":"1.600.000 ",
                    "nameCourserSideBar": "buyALot"
               
             },
@@ -133,7 +133,7 @@
     },
      {
         "id": 1,
-        "name": "Cua nướng đá ",
+   "name": "Cá chép kho nghệ",
         "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/06/mon-ngon-cuoi-tuan-gan-ket-gia-dinh.jpg",
         "price": "1.600.000 ",
         "endpoint": "",
@@ -267,7 +267,7 @@
         "id": 2,
         "name": "Món ngon châu Á",
         "img": "https://daubepgiadinh.vn/wp-content/uploads/2020/06/cua-xot-ot-singapore.jpg",
-        "price": "1.600.000 ",
+        "price": "1.600.000",
         "endpoint": "",
         "describe": 
             {
