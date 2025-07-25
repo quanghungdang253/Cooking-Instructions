@@ -69,7 +69,7 @@ Giao diện responsive cho thiết bị di động
 ---
 
 ##  Ảnh minh họa
-
+ **Trang Admin**
  ![Trang Admin](./demo/img1.png) | ![Menu](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png)
 
  ![Home](./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
