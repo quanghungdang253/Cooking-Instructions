@@ -70,11 +70,7 @@ Giao diện responsive cho thiết bị di động
 
 ##  Ảnh minh họa
 
-> _Hãy thêm các ảnh demo trong thư mục `screenshots/` và cập nhật đường dẫn nếu cần._
-
-
-
- ![Home](./demo/img1.png) | ![Details](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png)
+ ![Trang Admin](./demo/img1.png) | ![Menu](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png)
 
  ![Home](./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
 ---
@@ -98,3 +94,6 @@ npm install
 
 # Chạy dự án
 npm run dev
+
+Lời cảm ơn
+Cảm ơn bạn đã quan tâm và trải nghiệm dự án Cooking Instructions. Hy vọng website sẽ giúp bạn có thêm thật nhiều ý tưởng và cảm hứng cho những bữa ăn ngon miệng!
