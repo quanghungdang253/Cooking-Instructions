@@ -4,8 +4,9 @@ Một website hướng dẫn nấu ăn hiện đại được xây dựng với 
 
  **Trang web trực tuyến**: https://cooking-instructions.vercel.app/
 
- **Đăng nhập Admin:** + tên đăng nhập: hung
-                      + mật mật khẩu: 123
+ **Đăng nhập Admin:** 
+      + tên đăng nhập: hung.
+      + mật mật khẩu: 123
 
 ---
 
@@ -42,6 +43,7 @@ Giao diện responsive cho thiết bị di động
 
 ##  Công nghệ sử dụng
 **Frontend**
+
 - Vue 3
 - Vite
 - Quản lý trạng thái( Pinia)
@@ -49,11 +51,14 @@ Giao diện responsive cho thiết bị di động
 - Gửi yêu cầu API( Axios )
 - Tailwind CSS 
 - Heroicons – Icon hiện đại
+
+
 **Hosting Frontend** :  Vercel
 
 **Backend**
 - PHP (Vanilla)
 **Cơ sở dữ liệu**
+
 - phpMyAdmin 
 
 
