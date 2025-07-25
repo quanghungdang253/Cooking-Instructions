@@ -4,33 +4,44 @@ Một website hướng dẫn nấu ăn hiện đại được xây dựng với 
 
  **Trang web trực tuyến**: https://cooking-instructions.vercel.app/
 
+ **Đăng nhập Admin:** + tên đăng nhập: hung
+                      + mật mật khẩu: 123
 
 ---
 
-##  Tính năng
+##  TÍNH NĂNG
 
-### Đã hoàn thành
+Đã hoàn thành:
+**Danh sách công thức được phân loại (Bữa sáng, trưa, tối…)**
+**Trang chi tiết công thức gồm:**
+++ Nguyên liệu
 
--  Danh sách công thức được phân loại (bữa sáng, trưa, tối…)
--  Trang chi tiết công thức với:
-  - Nguyên liệu
-  - Hướng dẫn từng bước
-  - Các công thức liên quan ở thanh bên
--  Chức năng giỏ hàng (Shopping cart)
+++ Hướng dẫn từng bước
 
-### Đang phát triển
+++ Các công thức liên quan ở thanh bên
 
--  Đăng nhập và đăng ký tài khoản
--  Lưu công thức yêu thích
--  Bình luận và đánh giá công thức
--  Trang quản trị (Admin) để quản lý công thức
--  Chế độ sáng tối
--  Responsive Mobie
+**Chức năng giỏ hàng (Shopping Cart)**
+
+ **Trang Admin**
+
+ **Chức năng lọc**
+
+ **Đặt hàng**
+
+### ĐANG PHÁT TRIỂN 
+
+Lưu công thức yêu thích
+
+Bình luận và đánh giá công thức
+
+Chế độ sáng/tối
+
+Giao diện responsive cho thiết bị di động
 
 ---
 
 ##  Công nghệ sử dụng
-
+**Frontend**
 - Vue 3
 - Vite
 - Quản lý trạng thái( Pinia)
@@ -38,7 +49,15 @@ Một website hướng dẫn nấu ăn hiện đại được xây dựng với 
 - Gửi yêu cầu API( Axios )
 - Tailwind CSS 
 - Heroicons – Icon hiện đại
+**Hosting Frontend** :  Vercel
 
+**Backend**
+- PHP (Vanilla)
+**Cơ sở dữ liệu**
+- phpMyAdmin 
+
+
+**Hosting Backend** : InfinityFree Hosting
 ---
 
 ##  Trạng thái dự án
@@ -55,9 +74,14 @@ Một website hướng dẫn nấu ăn hiện đại được xây dựng với 
 
 
 
- ![Home](./demo/img1.png) | ![Details](./demo/img2.png) | ![Dark](./demo/img9.png) | ![Dark](./demo/img9.png)
+ ![Home](./demo/img1.png) | ![Details](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png)
 
- ![Home](./demo/img3.png) | ![Details](./demo/img4.png) | ![Dark](./demo/img5.png) | ![Dark](./demo/img6.png)
+ ![Home](./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
+---
+ ![Home](./demo/img9.png) | ![Details](./demo/img10.png) | ![Dark](./demo/img11.png) | ![Dark](./demo/img12.png)
+  ![Home](./demo/img13.png) | ![Details](./demo/img14.png) | ![Dark](./demo/img15.png) | ![Dark](./demo/img16.png)
+  ![Home](./demo/img17.png) 
+---
 ---
 
 ## Cách chạy dự án trên máy

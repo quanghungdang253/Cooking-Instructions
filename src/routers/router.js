@@ -1,7 +1,7 @@
 
    import { createRouter , createWebHistory } from 'vue-router'
         import Cart from '../pages/cart/cart.vue';
-        
+        import Login from '@/pages/login/login.vue';
     import Home from '../pages/home/home.vue';
     import About from '../pages/about/about.vue';
     import HomeCourseDetail from "../pages/home-course-detail/home-course-detail.vue";
@@ -54,6 +54,12 @@
             id: 7, path: "/Cart", 
             name: "Cart", 
             component: Cart
+        },
+        {
+            id: 8,
+            path: "/Login",
+            name: "Login",
+            component: Login
         },
 
          {

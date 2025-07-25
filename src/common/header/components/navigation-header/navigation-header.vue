@@ -25,14 +25,18 @@
                                  <span v-if="index == 1 || index == 2 || index == 4"> &#9660</span>
                         </div>
                         </div>  
-                        <div class="flex gap-10">
+                        <div class="flex gap-10 font-mono">
                             <router-link 
-                             to=""
-                              class=" py-2 px-4 rounded-md font-bold flex items-center">
+                            to="/"
+                              class=" 
+                                py-2 px-4 rounded-md font-bold flex items-center bg-red-700">
                                  
                                  Tra cứu
                             </router-link>
-                            <router-link  class=" py-2 px-4  rounded-md font-bold  flex items-center" to=""> Đăng Ký  </router-link>
+                            <router-link 
+                             to="/Login"
+                            
+                            class=" py-2 px-4  rounded-md font-bold  bg-red-700  flex items-center" > Đăng Nhập  </router-link>
                          </div>
              </div>
          </div>
