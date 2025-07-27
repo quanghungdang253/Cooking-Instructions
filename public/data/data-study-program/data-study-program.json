@@ -67,10 +67,10 @@
      {
         "id":7,
         "name": "Cá Chép khó nghệ",
-              "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
+        "description": "Học phương pháp, bí quyết chế biến món ngon để tự thưởng cho bản thân hoặc chiêu đãi bạn bè, người thân dịp cuối tuần.",
         "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/ca-chep-kho-nghe-400x267.jpg",
-         "price": "1.600.000 ",
-             "endpoint": "data-study-program"
+        "price": "1.600.000 ",
+            "endpoint": "data-study-program"
         
     },
      {

@@ -27,11 +27,12 @@ import { onMounted } from 'vue';
 </script>
 
 <template>
-    <div class="">   
+    <div>   
         <div class="">   
                 <heroBanner />
         </div>
         <div>
+           
                 <div class="max-w-[1280px] mx-auto ">
                          <homeCourse />
                             <listCourse 

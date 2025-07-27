@@ -8,7 +8,9 @@
     import familyCookingCourse from "@/pages/family-cooking-course/family-cooking-course.vue";
     import healthArticlesPage from '@/pages/health-articles-page/health-articles-page.vue';
     import foodEveryday from '@/pages/food-everyday/food-everyday.vue';
+    import healthyFood from '@/pages/healthy-food/healthy-food.vue';
     import foodEveryDayDetail from '@/pages/food-everyday-detail/food-everyday-detail.vue';
+import { comment } from 'postcss';
 
     const routes = [
         {
@@ -42,7 +44,8 @@
         {
            id: 5, 
            path:"/food-everyday/:endpoint/:id",
-           name:"food-everyday", component: foodEveryday
+           name:"food-everyday", 
+           component: foodEveryday
         },
         {
           id: 6,
@@ -51,7 +54,8 @@
           component: foodEveryDayDetail
         },
         {
-            id: 7, path: "/Cart", 
+            id: 7, 
+            path: "/Cart", 
             name: "Cart", 
             component: Cart
         },
@@ -60,6 +64,12 @@
             path: "/Login",
             name: "Login",
             component: Login
+        },
+        {
+            id: 9,
+            path: "/Healthy-food",
+            name: "Healthy",
+            component: healthyFood
         },
 
          {

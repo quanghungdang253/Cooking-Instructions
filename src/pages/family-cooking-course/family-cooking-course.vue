@@ -50,7 +50,7 @@
             <div class="mb-6">  
                     <Title content="CHƯƠNG TRÌNH HỌC "/>
              </div>
-                <studyProgram />
+                    <studyProgram />
         </div>
  </div>
 </template>

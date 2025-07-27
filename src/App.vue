@@ -26,9 +26,9 @@
     <div class="fixed right-0 bottom-0">
             <iconContact />
     </div>
-     <div class="">
+     <!-- <div class="">
         <Footer />
-    </div>
+    </div> -->
       </div>
  
  

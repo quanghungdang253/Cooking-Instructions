@@ -9,34 +9,51 @@
             <div class="flex gap-10"> 
                          <div   v-for="(item,index) in listData" :key="index" class="flex items-center"> 
                              <router-link 
-                              to="/"
-                              v-if="index == 0"
-                              class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"> 
+                              :to="
+                                index == 0 ? '/' : 
+                                index == 3  ? '/Healthy-food' : '/'"
+                             
+                              v-if="index == 0 || index == 3"
+                              class="
+                          
+                              cursor-pointer pl-4
+                              pr-2 py-4 font-bold
+                              font-mono text-[14px]
+                              hover:text-yellow-500
+                            "> 
                               {{ item.name }}
                             </router-link>
                              <h1 
-                                 v-if="index !== 0"
+                                 v-if="index !== 0 && index !== 3"
                                  @mouseover="handleOpen = index"
                               
-                                 class="cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]"
+                                 class="
+                                 hover:text-yellow-500
+                                 cursor-pointer pl-4 pr-2 py-4 font-bold font-mono text-[14px]
+                                   
+                                 "
                                > {{ item.name }}
                                  </h1>
 
-                                 <span v-if="index == 1 || index == 2 || index == 4"> &#9660</span>
+                                 <span 
+                                 class="hover:text-yellow-500"
+                                 v-if="index == 1 || index == 2 || index == 4" >
+                                   &#9660
+                                  </span>
                         </div>
                         </div>  
                         <div class="flex gap-10 font-mono">
                             <router-link 
                             to="/"
                               class=" 
-                                py-2 px-4 rounded-md font-bold flex items-center bg-red-700">
+                                py-2 px-4 rounded-md font-bold flex items-center       hover:text-yellow-500">
                                  
-                                 Tra cứu
+                                 Tra cứu khóa học
                             </router-link>
                             <router-link 
                              to="/Login"
                             
-                            class=" py-2 px-4  rounded-md font-bold  bg-red-700  flex items-center" > Đăng Nhập  </router-link>
+                            class=" py-2 px-4  rounded-md font-bold flex items-center hover:text-yellow-500" > Đăng Nhập  </router-link>
                          </div>
              </div>
          </div>

@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="flex flex-col">  
+    <div class="flex flex-col bg-white">  
     <div v-if="listData" class="flex">
         <div class="">
             <h1 

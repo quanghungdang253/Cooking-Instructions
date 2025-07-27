@@ -64,6 +64,8 @@
              );
                 }else if(nameLogin.value == null || password == null){
                     alert("tên , mật khẩu k được để trống")
+                }else {
+                  alert("Tên đăng nhập hoặc mật khẩu sai! vui lòng nhập lại");
                 }
         }
 </script>

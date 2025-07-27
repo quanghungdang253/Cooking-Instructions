@@ -102,7 +102,7 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
       onMounted(() => {
             time = setInterval(() => {
                     handleScrollRight()
-            },3000)
+            },6000)
        })
        onBeforeUnmount(() => {
                 clearInterval(time)
