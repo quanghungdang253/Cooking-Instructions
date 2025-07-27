@@ -5,7 +5,7 @@
   <div class="h-[80vh] bg-gradient-to-br from-blue-100 to-purple-200 flex items-center justify-center px-4">
     <div class="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
       <h2 class="text-2xl font-semibold text-center text-gray-700 mb-6">
-        Đăng nhập vào hệ thống
+        Đăng nhập 
       </h2>
 
       <form class="space-y-5">

@@ -15,7 +15,7 @@
           <Header />
     </div>
     
-        <div class="mt-[9em]">
+        <div class="mt-[8.5em]">
             <router-view/>
         </div>
 

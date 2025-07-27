@@ -68,7 +68,7 @@
           class="flex justify-between mt-10">
 
       
-        <div class="border border-black min-w-[25em] p-2">
+        <div class="border border-black min-w-[100%] p-2">
             <div>
                 <h1 class="bg-stone-900 text-white text-center p-2 font-bold"> THÔNG TIN KHÓA HỌC</h1>
                 <div class="mt-2 h-2 bg-black"></div>
@@ -101,8 +101,9 @@
         class="
          bg-green-600
          text-white
+         mt-6
            px-6 py-3 
-           font-bold rounded-xl
+           font-bold rounded-sm
            hover:bg-green-700 transition">   
            THANH TOÁN
       </button>
