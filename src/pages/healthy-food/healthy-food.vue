@@ -37,16 +37,21 @@
 <script setup>
 import useHealthyFood from '@/hooks/use-healthy-food/use-healthy-food';
 import listHealthy from './components/list-healthy.vue';
-
+import { useRoute } from 'vue-router';
 import sideBar from '@/components/side-bar.vue';
 import homeSideBar from '@/components/home-side-bar.vue';
-        import { onMounted, ref, watch } from 'vue';
-  
+import { computed, onMounted, ref, watch } from 'vue';    
+      const router = useRoute();
+      
+        const endpoint = computed(() => router.params.endpoint);
         const getData = ref(null);
-        const url  = ref('/data/data-healthy-food/data-healthy-food.json');
-
+        const url  = ref(`/data/data-healthy-food/${endpoint.value || 'data-healthy-food'}.json`);
         const {listData, handleGetData} = useHealthyFood(url);
     
+
+        
+      
+   
         onMounted(() => {
                 handleGetData();
         });

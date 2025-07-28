@@ -69,7 +69,7 @@ import { comment } from 'postcss';
         {
             id: 9,
             path: "/Healthy-food",
-            name: "Healthy",
+            name: "Healthy-food",
             component: healthyFood
         },
         {
@@ -78,6 +78,13 @@ import { comment } from 'postcss';
             name: "healthy-food-detail",
             component: healthyFoodDetail
         },
+         {
+            id: 11,
+            path: "/Healthy-food/:endpoint/:id",
+            name: "Healthy-food-list",
+            component: healthyFood
+        },
+        
 
          {
              path: "/:pathMatch(.*)*",

@@ -11,7 +11,10 @@
                              <router-link 
                               :to="
                                 index == 0 ? '/' : 
-                                index == 3  ? '/Healthy-food' : '/'"
+                                index == 3  ? '/Healthy-food' :
+                                index == 4 ? {name: 'Healthy-food-list', params: {
+                                  endpoint: item.endpoint
+                                }} : ''"
                              
                               v-if="index == 0 || index == 3"
                               class="
@@ -33,7 +36,7 @@
                                    
                                  "
                                > {{ item.name }}
-                                 </h1>
+                                </h1>
 
                                  <span 
                                  class="hover:text-yellow-500"
@@ -104,13 +107,16 @@
         import { DocumentMagnifyingGlassIcon } from '@heroicons/vue/24/outline'
         import listEndpoint from './components/list-endpoint';
         const router = useRouter();
-    
+    const listNameRouter = ["data-eat-where","data-secret","data-tips","data-child-rearing"];
         const handleNavigation = (endpoint, id) => {
           if(listEndpoint.includes(endpoint)){
                 nameRouter.value = "food-everyday";
-          }else {
+           }else if(listNameRouter.includes(endpoint)){
+               nameRouter.value = "Healthy-food-list";
+           }else {
                 nameRouter.value = "home-course-detail"
           }
+      
             router.push({
               name: nameRouter.value,
               params: {

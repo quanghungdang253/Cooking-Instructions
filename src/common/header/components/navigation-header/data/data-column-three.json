@@ -1,15 +1,15 @@
 [
      {
-        "id": 1, "name": "Ăn gì ở đâu"
+        "id": 1, "name": "Ăn gì ở đâu", "endpoint":"data-eat-where"
     },
     {
-        "id": 2, "name": "Bí quyết "
+        "id": 2, "name": "Bí quyết ","endpoint": "data-secret"
     },
     {
-        "id": 3, "name": " Mẹo vặt"
+        "id": 3, "name": " Mẹo vặt","endpoint":"data-tips"
     },
     {
-        "id": 4, "name": "Nuôi dạy trẻ"
+        "id": 4, "name": "Nuôi dạy trẻ","endpoint":"data-child-rearing"
     }
    
 ]

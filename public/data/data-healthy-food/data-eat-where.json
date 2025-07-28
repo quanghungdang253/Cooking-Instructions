@@ -1,0 +1,377 @@
+{
+    "topicName":"ẨM THỰC SỨC KHỎE",
+    "listFood": [
+        
+  {
+    "id": 0,
+    "name": "Có nên ăn đồ chay “giả thịt”?",
+    "price": "99.000 - 299.000",
+    "content":"Các nhà dinh dưỡng tiết lộ rằng nhiều người cảm thấy mệt mỏi và tăng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-do-thuan-chay.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 1,
+    "name": "Omega 3 Có Trong Những Thực Phẩm Nào?",
+    "price": "199.000 - 299.000",
+       "content":"Cấu tạo của não bộ con người có tới 60% là các acid béo, trong...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/11/omega-3-400x267.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 2,
+    "name": " Cách Kho Cá Nục",
+    "price": "99.000 - 299.000",
+     "content":"Cấu tạo của não bộ con người có tới 60% là các acid béo, trong...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2017/09/ca-nuc-kho-thom.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 3,
+    "name": "Nấu Gì Cho Bữa Tối Hôm Nay Để Nhìn Là Muốn Ăn Ngay Tức Thì",
+    "price": "99.000 - 299.000",
+    "content": "Để không phải đau đầu với câu hỏi nấu gì cho bữa tối hôm nay?...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/11/suon-xao-chua-ngot-400x267.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 4,
+    "name": "Buổi Tối Không Nên Ăn Gì Để Đảm Bảo Sức Khỏe?",
+    "price": "99.000 - 299.000",
+    "content":"Theo thói quen ăn uống của nhiều gia đình Việt, bữa tối thường là bữa...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/11/an-toi-dung-gio-400x267.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 5,
+    "name": "Thực phẩm giàu Omega 3",
+    "price": "99.000 - 299.000",
+     "content":"Cấu tạo của não bộ con người có tới 60% là các acid béo, DHA...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/ga-kho-sa-gung-dua-com.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 6,
+    "name": "Các loại thực phẩm giàu Protein",
+    "price": "99.000 - 299.000",
+      "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2019/01/ca-chach-kho-nghe.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 7,
+    "name": "Nước Mắm Kho Qụet",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/protein-trong-hat-400x267.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 8,
+    "name": "Thịt Kho Với Măng",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/thit-kho-mang-tuoi.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 9,
+    "name": "Thịt heo kho",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/thit-heo-kho-247x165.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 10,
+    "name": "Mít kho chay thanh đạm",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/09/mit-kho-chay.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 11,
+    "name": "Thịt kho dừa",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/08/hoc-thit-kho-dua.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+    "id": 12,
+    "name": "Sườn xào chua ngọt",
+    "price": "99.000 - 299.000",
+       "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+    "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+    "endpoint": "data-healthy-food"
+  },
+  {
+  "id": 13,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 14,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 15,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 16,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 17,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 18,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 19,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 20,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 21,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 22,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 23,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 24,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 25,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 26,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 27,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 28,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 29,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+},
+{
+  "id": 30,
+  "name": "Sườn xào chua ngọt",
+  "price": "99.000 - 299.000",
+     "content":"Với những lợi ích kỳ diệu của các loại thực phẩm giàu protein mà chúng...",
+  "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/04/suon-xao-chua-ngot-1.jpg",
+  "endpoint": "data-healthy-food"
+}
+    ],
+"category": [
+        {
+            "id": 0,
+            "name": "Ẩm Thực Sức Khỏe (91)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 1,
+            "name": "Ăn gì ở đâu",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 2,
+            "name": "Bánh Ngọt Yêu Thương (7)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 3,
+            "name": "Bí Quyết (56)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 4,
+            "name": "Bữa Sáng Thông Minh (9)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 5,
+            "name": "Hướng Nghiệp á âu (30)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 6,
+            "name": "Mẹo Vặt (65)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 7,
+            "name": "Món Ngon Cuối Tuần (8)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 8,
+            "name": "Món Ngon Đãi Tiệc (8)",
+            "endpoint": "healthy"
+        },
+         {
+            "id": 9,
+            "name": "Nuôi Dạy Trẻ (10)",
+            "endpoint": "healthy"
+        }
+      
+    ],
+    "buyALot": [
+        
+     {
+                "id": 0, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                "nameCourserSideBar": "buyALot"
+
+              
+            },
+             {
+                "id": 1, "nameCourser": "Thịt Kho Với Măng", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/12/thit-kho-mang-tuoi-100x100.jpg", "price":"1.800.000 ",
+                   "nameCourserSideBar": "buyALot"
+              
+            },
+             {
+                "id": 2, "nameCourser": "Thịt kho nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/thit-kho-nam-rom-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "buyALot"
+              
+            },
+             {
+                "id": 3, "nameCourser": "Thịt kho Tàu", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-tau-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "buyALot"
+              
+            },
+             {
+                "id": 4, "nameCourser": "Thịt heo kho", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-banh-pizza-hai-san-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "buyALot"
+              
+            },
+             {
+                "id": 5, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "buyALot"
+              
+            }
+
+    ],
+       "highlyAppreciated": [
+            {
+                "id": 0, "nameCourser": "Bánh su kem chiên", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-banh-su-kem-chien-100x100.jpg", "price":"1.600.000 ",
+                "nameCourserSideBar": "highlyAppreciated"
+                
+              
+            },
+             {
+                "id": 1, "nameCourser": "Trứng cuộn hàn quốc", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/trung-cuon-han-quoc-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "highlyAppreciated"
+              
+            },
+             {
+                "id": 2, "nameCourser": "Lẩu gà nấu nấm", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-anh-lau-ga-nau-nam-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "highlyAppreciated"
+              
+            },
+             {
+                "id": 3, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "highlyAppreciated"
+              
+            },
+             {
+                "id": 4, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "highlyAppreciated"
+              
+            },
+             {
+                "id": 5, "nameCourser": "Thịt kho trứng cút - trứng vịt", "img": "https://daubepgiadinh.vn/wp-content/uploads/2018/05/hinh-thit-kho-trung-100x100.jpg", "price":"1.600.000 ",
+                   "nameCourserSideBar": "highlyAppreciated"
+              
+            }
+        ]
+
+    
+}
