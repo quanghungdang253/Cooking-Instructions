@@ -1,9 +1,12 @@
 <template>
     <div>      
         <section>
-                    <div class="grid grid-cols-4 gap-4">
+                    <div class="grid grid-cols-4 gap-4 text-sm">
                         <router-link 
-                            to="/"
+                            :to="{name:'healthy-food-detail', params: {
+                                    endpoint: item.endpoint,
+                                    id: item.id
+                            }}"
                             v-for="(item,index) in getData.listFood
                              "
                             class="
@@ -15,7 +18,7 @@
                             
                             "   
                         >
-                           <div class="mb-10 h-[200px]">  
+                           <div class="mb-10 h-[180px]">  
                                 <img 
                                     :src="item.img" 
                                     alt="" 

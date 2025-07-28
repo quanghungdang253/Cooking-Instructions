@@ -10,6 +10,7 @@
     import foodEveryday from '@/pages/food-everyday/food-everyday.vue';
     import healthyFood from '@/pages/healthy-food/healthy-food.vue';
     import foodEveryDayDetail from '@/pages/food-everyday-detail/food-everyday-detail.vue';
+    import healthyFoodDetail from '@/pages/healthy-food-detail/healthy-food-detail.vue';
 import { comment } from 'postcss';
 
     const routes = [
@@ -70,6 +71,12 @@ import { comment } from 'postcss';
             path: "/Healthy-food",
             name: "Healthy",
             component: healthyFood
+        },
+        {
+            id: 10,
+            path: "/Healthy-food-detail/:endpoint/:id",
+            name: "healthy-food-detail",
+            component: healthyFoodDetail
         },
 
          {

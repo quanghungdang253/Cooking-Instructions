@@ -11,6 +11,7 @@ console.log(endpoint.value);
           let dataCourserSidebar = ["buyALot", "highlyAppreciated"];
           let dataStudyProgram = ["data-study-program"];
           let dataTeacher = ["teachers"];
+          let dataHealthyFood = ["data-healthy-food"];
     if(dataCourser.includes(endpoint.value)){
             nameFolder.value = "data-courser";
     }else if(dataCourserSidebar.includes(endpoint.value)){
@@ -21,6 +22,8 @@ console.log(endpoint.value);
             nameFolder.value = "data-Instructor-information";
     }else if(listEndpoint.includes(endpoint.value)){
             nameFolder.value = "data-food-everyday";
+    }else if(dataHealthyFood.includes(endpoint.value)){
+           nameFolder.value = "data-healthy-food-detail";
     }
     else {
             nameFolder.value = "data-courser";

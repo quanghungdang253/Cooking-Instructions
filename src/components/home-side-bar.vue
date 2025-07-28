@@ -12,7 +12,7 @@
                text-center
                p-4
                mb-4
-               rounded-xl
+               rounded-sm
             "
             > KHÓA HỌC MUA NHIỀU 
         </h1>
@@ -54,7 +54,7 @@
                text-center
                p-4
                mb-4
-               rounded-xl
+               rounded-sm
             "
             > KHÓA HỌC ĐÁNH GIÁ CAO
         </h1>
