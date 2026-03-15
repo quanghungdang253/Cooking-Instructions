@@ -28,38 +28,21 @@
                      v-for="(item , index) in getData" 
                      :key="index" 
                     
-                     class="text-center bg-white min-w-[20em] flex flex-col items-center cursor-pointer hover:translate-y-[-5px] duration-300"
-                     
-                     
-                     
-                     >
-
-                     
-
-                    <img :src="item.img"  :alt="item.name" class="w-full h-[155px] object-contain p-2">
-
-
-
-                  
+    class="text-center bg-white min-w-[20em] flex flex-col items-center cursor-pointer hover:translate-y-[-5px] duration-300">
+                                       
+                 <div class="h-[275px]">   
+                    <img :src="item.img"  :alt="item.name" class="w-full h-[155px] object-cover p-2">     
                     <h1 class=" p-2 font-bold text-[20px] font-mono"> {{ item.name }}</h1>
                  
+                            <p>  {{ item.description }}  </p>
+                    <span class="font-bold text-red-600 "> {{ item.content }} </span>
                 
-   <span
-                 
-                        class="font-bold text-red-600 font-mono"> Giá : {{ item.price }} vnđ
-                    
-                    
-                    </span>
-                    <span 
-                       
-                        class="font-bold text-red-600 ">  {{ item.content }}</span>
-                    <h1 
+                 </div>    
+                <h1 
                         class="px-6 py-2 rounded-sm font-bold 
-                        
-                        inline-block bg-amber-700 text-white my-8"
-                
-                        >
-                         MUA KHÓA HỌC
+
+                        inline-block bg-amber-700 text-white my-8">
+                         XEM THÊM
                     
                      </h1>
                 
@@ -119,13 +102,10 @@ import { ArrowDownLeftIcon, ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue
 const getData = computed(() => {
   if (!Array.isArray(url.data)) return [];
 
-  if(url.condition_name === "food-everyday") {
-          return url.data.filter(item => item.endpoint === "food-everyday");
+  if(url.condition_name === "data-raising-childrent") {
+          return url.data.filter(item => item.endpoint === "data-raising-children");
   }
-  if(url.condition_name === "family-cooking") {
-          return url.data.filter(item => item.endpoint === "family-cooking");
-  }
-
+ 
 
 
 });
