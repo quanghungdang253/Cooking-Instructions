@@ -85,7 +85,7 @@
                  </div>
               <button 
                 type="submit"
-                class="flex justify-center mt-10 bg-orange-500  text-white">
+                class="flex justify-center mt-10 bg-orange-500  text-black p-4 font-bold ">
                                 TIẾN HÀNH THANH TOÁN 
                         </button>
         </form>
@@ -100,13 +100,9 @@
 import { computed, ref } from 'vue';
 import cartStore from '@/store/store';
 const store = cartStore();
-const Sum = computed(() => {
-    let total = 0;
-    props.dataStore.forEach(element => {
-            total += Number(element.price.replace(/\./g, ''));
-    });
-    return total;
-})
+
+
+
 const form = ref({
   name: '',
   age: '',
@@ -124,49 +120,111 @@ const submitForm = async () => {
     return;
   }
 
-  for (const product of store.listItems) {
-    const payload = new FormData();
-       payload.append('name', form.value.name);
-       payload.append('age', form.value.age);
-       payload.append('phone', form.value.phone);
-       payload.append('email', form.value.email);
-       payload.append('gender', form.value.gender);
-       payload.append('address', form.value.address);
-       payload.append('note', form.value.note);
-       payload.append('payment_method', form.value.payment_method);
-       payload.append('product_name', product.name || product.product_name);
-       payload.append('product_price', product.price);
-       payload.append('product_image', product.img || product.product_image);
-
-    try {
-      const response = await fetch('https://quanghung.kesug.com/submit.php', {
-        method: 'POST',
-        body: payload
-      });
-      const result = await response.text();
-      console.log(result);
-    } catch (error) {
-      console.error('Lỗi gửi dữ liệu:', error);
-    }
+  if(store.listItems.length === 0) {
+    alert("Giỏ hàng trống");
+    return;
   }
 
-  alert('Đã gửi đơn hàng thành công!');
-  store.listItems = []; // Xóa giỏ hàng sau khi gửi
-  localStorage.removeItem('cart-items');
+
+  const totalPrice = () => {
+  return store.listItems.reduce((sum,item) => {
+    const price = Number(item.price.toString().replace(/\./g,''))
+    return sum + price * item.quantity
+  },0)
+}
+
+  const payload = {
+    customer: form.value,
+    cart: store.listItems,
+    total_price: totalPrice()
+}
+
+  try {
+    const response = await fetch('http://127.0.0.1:8000/api/admin/checkout', {
+      method: "POST",
+      headers: {
+        'Content-Type': "application/json"
+      },
+      body: JSON.stringify(payload)
+    })
+
+    const data = await response.json();
+
+    alert("Đặt khóa học thành công ");
+    store.listItems = [];
+    localStorage.removeItem("cart-items");
+    
+  }
+  catch(error) {
+    console.error(error)
+
+    alert("Có lỗi xảy ra");
+  }
+  
 };
 
 
-const convertNumber = computed(() => {
-    return  Sum.value.toLocaleString('vi-VN', { minimumFractionDigits: 0 })
-})
 
-     const props = defineProps({
-        dataStore: {
-            type: Object,
-            required: true
-        }
- })
 
 </script>
 
 
+
+
+
+
+
+<!-- 
+// const convertNumber = computed(() => {
+//     return  Sum.value.toLocaleString('vi-VN', { minimumFractionDigits: 0 })
+// })
+
+//      const props = defineProps({
+//         dataStore: {
+//             type: Object,
+//             required: true
+//         }
+//  })
+
+
+// alert('Đã gửi đơn hàng thành công!');
+  // store.listItems = []; // Xóa giỏ hàng sau khi gửi
+  // localStorage.removeItem('cart-items'); -->
+
+
+  
+  <!-- // for (const product of store.listItems) {
+  //   const payload = new FormData();
+  //      payload.append('name', form.value.name);
+  //      payload.append('age', form.value.age);
+  //      payload.append('phone', form.value.phone);
+  //      payload.append('email', form.value.email);
+  //      payload.append('gender', form.value.gender);
+  //      payload.append('address', form.value.address);
+  //      payload.append('note', form.value.note);
+  //      payload.append('payment_method', form.value.payment_method);
+  //      payload.append('product_name', product.name || product.product_name);
+  //      payload.append('product_price', product.price);
+  //      payload.append('product_image', product.img || product.product_image);
+
+  //   try {
+  //     const response = await fetch('https://quanghung.kesug.com/submit.php', {
+  //       method: 'POST',
+  //       body: payload
+  //     });
+  //     const result = await response.text();
+  //     console.log(result);
+  //   } catch (error) {
+  //     console.error('Lỗi gửi dữ liệu:', error);
+  //   }
+  // }
+ -->
+
+<!-- 
+ const Sum = computed(() => {
+    let total = 0;
+    props.dataStore.forEach(element => {
+            total += Number(element.price.replace(/\./g, ''));
+    });
+    return total;
+}) -->

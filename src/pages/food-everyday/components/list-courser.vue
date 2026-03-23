@@ -3,7 +3,7 @@
     <div class="min-w-[70%]" v-if="props.data">
         <div>
                
-      <div  class="grid grid-cols-4 mt-4 gap-4" >
+      <div  class="grid grid-cols-4 mt-4 gap-4 " >
         <router-link 
         :to="{
                 name: 'food-everyday-detail',
@@ -17,7 +17,7 @@
             v-for="(item,index) in props.data" 
             :key="index"
             class="
-                 
+                 p-2
                 bg-white 
                  inline-block 
                   max-w-[15em]
@@ -32,8 +32,11 @@
                 <img :src="item.img" alt="">
            
             </div>
-             <h1 class="font-bold text-xl"> {{ item.name }} </h1>
-             <h1 class="text-red-600 font-bold"> {{ item.price }} vnđ</h1>
+            <div class="h-[5rem]">      
+                     <h1 class="font-bold text-[16px] h-[3rem]"> {{ item.name }} </h1>
+                    <h1 class="text-red-600 font-bold"> {{ item.price }} vnđ</h1>
+
+             </div>
 
              <div class="bg-green-600 text-white font-bold p-2 mt-2 rounded-lg font-mono"> MUA KHÓA HỌC  </div>
 

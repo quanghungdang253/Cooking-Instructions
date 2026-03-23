@@ -1,5 +1,7 @@
 
 
+
+
     <template>
 <div>  
 <div  @mouseleave="handleOpen  = false " class="relative">
@@ -45,20 +47,59 @@
                                   </span>
                         </div>
                         </div>  
-                        <div class="flex gap-10 font-mono">
-                            <router-link 
-                            to="/"
+                        <div class="flex items-center">
+                           <router-link 
+                            to="/search-course"
                               class=" 
                                 py-2 px-4 rounded-md font-bold flex items-center       hover:text-yellow-500">
                                  
                                  Tra cứu khóa học
                             </router-link>
+                        </div>
+
+                          <div v-if="user" class="flex items-center">
+                              <div @click="handleLogicBtn" class="cursor-pointer">   
+                                 <img :src="user.avatar" class="w-8 h-8 rounded-full inline" />
+                                 <span class="ml-2">{{ user.name }}</span>
+                              </div>
+                                <transition name="fade-slide">     
+                                 <div    
+                                     v-show="user && logicBtn" >
+                                    <button  @click="logout" class="ml-4 bg-red-500 px-2 rounded"> 
+                                               Đăng Xuất 
+                                    </button>
+                                  </div>
+                                </transition>
+
+
+
+                              </div>
+                              
+
+
+
+
+
+
+
+
+
+
+
+                              
+                        <div class="flex gap-10 font-mono" v-else>                                 
                             <router-link 
                              to="/Login"
                             
                             class=" py-2 px-4  rounded-md font-bold flex items-center hover:text-yellow-500" > Đăng Nhập  </router-link>
+
                          </div>
+                         
+
+                      
+                        
              </div>
+             
          </div>
     </div>
 
@@ -73,6 +114,7 @@
                 >
                     <div v-for="(itemChild , index) in listData[handleOpen].data"  class=" text-center"
                      :key="index" 
+                     
                     
                     
                     >
@@ -97,28 +139,46 @@
   </div>
     </template>
 
-    <script setup>
+  <script setup>
         import { ref } from 'vue';
         import { useRouter } from 'vue-router';
         import listData from './components/handle-data';
         let handleOpen = ref(null);
         import { MagnifyingGlassIcon } from '@heroicons/vue/24/outline'
-        let nameRouter = ref('home-course-detail');
         import { DocumentMagnifyingGlassIcon } from '@heroicons/vue/24/outline'
         import listEndpoint from './components/list-endpoint';
+        import { useUser } from '@/hooks/useInfoUser';
+
+
         const router = useRouter();
-    const listNameRouter = ["data-eat-where","data-secret","data-tips","data-child-rearing"];
+
+
+
+        const logicBtn  = ref(false);
+
+
+        function handleLogicBtn() {
+       
+             router.push("/admin")
+        }
+
+const logout = () => {
+  clearUser()
+  localStorage.removeItem('token')
+  router.push('/login')
+}
+
+const { user, clearUser } = useUser()
+
+        const listNameRouter = ["data-eat-where","data-secret","data-tips","data-child-rearing"];
+
+        
         const handleNavigation = (endpoint, id) => {
-          if(listEndpoint.includes(endpoint)){
-                nameRouter.value = "food-everyday";
-           }else if(listNameRouter.includes(endpoint)){
-               nameRouter.value = "Healthy-food-list";
-           }else {
-                nameRouter.value = "home-course-detail"
-          }
+     
       
+          // thực hiện gửi và file router.js
             router.push({
-              name: nameRouter.value,
+              name: "food-everyday",
               params: {
                endpoint,
                  id
@@ -126,6 +186,26 @@
             })
         }
            
+const clickOutside = {
+  beforeMount(el, binding) {
+    el.clickOutsideEvent = (event) => {
+      if (!(el === event.target || el.contains(event.target))) {
+        binding.value(event);
+      }
+    };
+    document.body.addEventListener('click', el.clickOutsideEvent);
+  },
+  unmounted(el) {
+    document.body.removeEventListener('click', el.clickOutsideEvent);
+  }
+};
+
+defineExpose({ clickOutside });
+
+
+
+
+
     </script> 
 
 <style scoped>
@@ -145,4 +225,5 @@
   opacity: 1;
   transform: translateX(0);
 }
-</style>
+</style> 
+

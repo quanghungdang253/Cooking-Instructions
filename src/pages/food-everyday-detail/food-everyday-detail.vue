@@ -1,63 +1,56 @@
-    <template>
-        <div class="h-[3000px]" v-if="price">
-            <div class="max-w-[1280px] mx-auto">   
-             <div>
-                <div class=" flex"> 
-                       <div class=""> 
-                        <foodEverydayMain :listData="getData" :price="price" />
-                         <foodEverydayFooter :listData="getData" />
-                         
-                       
-                        </div> 
-                        <div> 
-                            <homeSideBar :listData="getData" />
-                        </div> 
-                
-                     
-                       
-                </div>
-                
-            </div>
-            
-                </div>
-            </div>
+<template>
+  <div class="h-[3000px] mt-20">
+    <div class="max-w-[1280px] mx-auto">
 
-    </template>
+     
+      <loading v-if="isLoading" />
+
+      <!-- Nội dung -->
+      <div v-else class="flex justify-between gap-4 p-4">
+        <div>
+          <foodEverydayMain  v-if="food"   :listData="food"  :price="price" />
+
+          <foodEverydayFooter :listData="food" />
+        </div>
+
+        <homeSideBar :listData="data" />
+      </div>
+
+    </div>
+  </div>
+</template>
 
 
-    <script setup>
-        import { useRoute } from 'vue-router';
-        import { computed, onMounted, ref, watch } from 'vue';
-        import useFoodEveryDay from '@/hooks/use-food-every-day/use-food-every-day';
-        import foodEverydayFooter from './components/food-everyday-footer.vue';
-        import homeSideBar from '@/components/home-side-bar.vue';
-        import foodEverydayMain from './components/food-everyday-main.vue';
-        const router = useRoute();
-        const endpoint = computed(() => router.params.endpoint);
-        const id = computed(() => router.params.id);
-        const price  =  computed(() => router.params.price);
-        
-        const url = computed(() =>  `/data-detail/data-detail-food-everyday/${endpoint.value}.json`);
+<script setup>
+import { useRoute } from 'vue-router'
+import { computed, ref, watch } from 'vue'
 
-  
-    
-        const {data} = useFoodEveryDay(url);
+import useFoodListHomeDetail from '@/hooks/use-food-list-home/useFoodListHomeDetail'
+import useFoodListHome from '@/hooks/use-food-list-home/useFoodListHome'
 
-    const getData = computed(() => {
-            if(Array.isArray(data.value) && data.value.length >  0 ){
-                const findCourse = data.value.find((course) => course.id == id.value);
-                return findCourse;
-            }
-    })
-     onMounted(() => {
-            if(getData){
-                console.log(getData);
-            }
-     })
+import foodEverydayFooter from './components/food-everyday-footer.vue'
+import homeSideBar from '@/components/home-side-bar.vue'
+import foodEverydayMain from './components/food-everyday-main.vue'
+import loading from '@/ui/loading.vue'
 
-        watch(endpoint,  (newEndpoint) => {
-                console.log("giá trị endpoint đã thay đổi " + newEndpoint);
-        })
-    
+const router = useRoute()
 
-    </script>
+const endpoint = computed(() => router.params.endpoint)
+const id = computed(() => router.params.id)
+const price = computed(() => router.params.price)
+
+const { boxData } = useFoodListHomeDetail(id)
+const { data } = useFoodListHome()
+
+const food = computed(() => boxData.value?.data?.food || null);
+
+console.log(food);
+
+const isLoading = ref(true)
+
+watch(boxData, (val) => {
+  if (val) {
+    isLoading.value = false
+  }
+}, { immediate: true })
+</script>

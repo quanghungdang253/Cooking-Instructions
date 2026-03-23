@@ -78,6 +78,9 @@ const formatNumber = (number) => {
 };
   const handleRegister = () => {
      const price = Number(props.listData.price.replace(/\./g, '')) || 0;
+
+
+     
   const priceFormatted = formatNumber(price);
       const courser = {
     id: props.listData.id,
@@ -97,11 +100,11 @@ const formatNumber = (number) => {
   const priceFormatted = formatNumber(price);
 
          const courser = {
-    id: props.listData.id,
-    name: props.listData.name,
-    price: priceFormatted,
-    img: props.listData.img,
-    quantity: 1
+         id: props.listData.id,
+         name: props.listData.name,
+         price: priceFormatted,
+         img: props.listData.img,
+         quantity: 1
   };
 
         cart.addItem(courser);

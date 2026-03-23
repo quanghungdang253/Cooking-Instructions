@@ -42,7 +42,7 @@ import useFoodListHome from "../../hooks/use-food-list-home/useFoodListHome.js";
 
 <template>
     <div>   
-        <div class="">   
+        <div class="mt-20">   
                 <heroBanner />
         </div>
         <div>
@@ -64,12 +64,15 @@ import useFoodListHome from "../../hooks/use-food-list-home/useFoodListHome.js";
                                 nameUrl=""
                                 title="KHÓA HỌC NẤU ĂN GIA ĐÌNH"
                                 :data="data"    
-                                condition_name="family-cooking"
+                                condition_name="braised-dish"
                         />
                        
                 </div>
                 <div>  
-                        <ImageGrid :listImg="listImgStudents" title="HÌNH ẢNH THỰC TẾ "/>
+                        <ImageGrid 
+                                :listImg="listImgStudents" 
+                                title="HÌNH ẢNH THỰC TẾ "
+                        />
                 </div>
                 <div class="max-w-[1280px] mx-auto">
                           <listTeacher />
@@ -89,10 +92,10 @@ import useFoodListHome from "../../hooks/use-food-list-home/useFoodListHome.js";
                 <div class="my-6"> 
                         <Title content="CHƯƠNG TRÌNH ĐÀO TẠO VỚI CÁC ĐẦU BẾP NỔI TIẾNG "/>
                   </div>
-                        <studyProgram 
+                        <!-- <studyProgram 
                                  condition_name="study-program";
                         
-                        />
+                        /> -->
                   </div>
 
                   <div>

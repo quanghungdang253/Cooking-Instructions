@@ -63,12 +63,19 @@
     </div>
 
 
+
+
+<div class="flex justify-between">
+
+        <FormInput />
+
+
          <div 
           v-if="cart.listItems.length > 0" 
           class="flex justify-between mt-10">
 
       
-        <div class="border border-black min-w-[100%] p-2">
+        <div class=" min-w-[100%] p-2">
             <div>
                 <h1 class="bg-stone-900 text-white text-center p-2 font-bold"> THÔNG TIN KHÓA HỌC</h1>
                 <div class="mt-2 h-2 bg-black"></div>
@@ -96,20 +103,15 @@
                     </div>
                 </div>
                                <div>
-     <button
-       @click="goToForm"
-        class="
-         bg-green-600
-         text-white
-         mt-6
-           px-6 py-3 
-           font-bold rounded-sm
-           hover:bg-green-700 transition">   
-           THANH TOÁN
-      </button>
-       </div>
-    </div>
-  </div>
+     
+        </div>
+     </div>
+   </div>
+</div>
+
+
+
+
 </div>
     
     </div>
@@ -122,6 +124,68 @@
     </div>
 </template>
 
+
+
+
+<script setup>
+import { onMounted } from 'vue'
+import { TrashIcon } from '@heroicons/vue/24/outline'
+import cartStore from '../../store/store'
+import FormInput from './components/form-input.vue'
+
+const cart = cartStore()
+
+const convertNumber = (price) => {
+  if(!price){
+    return 0
+  }
+
+  return parseFloat(price.toString().replace(/\./g,''))
+}
+
+const totalPrice = () => {
+  return cart.listItems.reduce((sum,item)=>{
+
+    if(!item.price || !item.quantity){
+      return sum
+    }
+
+    return sum + convertNumber(item.price) * item.quantity
+
+  },0)
+}
+
+const formatNumber = (number)=>{
+  return Number(number).toLocaleString('vi-VN')
+}
+
+const goToForm = ()=>{
+
+  if(cart.listItems.length === 0){
+    alert("Giỏ hàng đang trống")
+    return
+  }
+
+  const form = document.getElementById("checkout-form")
+
+  if(form){
+    form.scrollIntoView({
+      behavior:"smooth"
+    })
+  }
+
+}
+
+onMounted(()=>{
+  console.log("Giỏ hàng:", cart.listItems)
+})
+</script>
+
+
+
+
+
+<!-- 
 <script setup>
         import { onMounted } from 'vue';
         import { TrashIcon } from '@heroicons/vue/24/outline' 
@@ -131,6 +195,7 @@
 
         
         const cart = cartStore();
+        
 const convertNumber = (price) => {
   if(!price) {
       return 0;
@@ -172,4 +237,4 @@ const formatNumber = (number) => {
  onMounted(() => {
          console.log("dữ liệu của giỏ hàng là " + cart.listItems);
   })
-</script>
+</script> -->

@@ -1,7 +1,7 @@
 
    import { createRouter , createWebHistory } from 'vue-router'
         import Cart from '../pages/cart/cart.vue';
-        import Login from '@/pages/login/login.vue';
+        import Login from '@/pages/auth/login.vue';
     import Home from '../pages/home/home.vue';
     import About from '../pages/about/about.vue';
     import HomeCourseDetail from "../pages/home-course-detail/home-course-detail.vue";
@@ -11,6 +11,8 @@
     import healthyFood from '@/pages/healthy-food/healthy-food.vue';
     import foodEveryDayDetail from '@/pages/food-everyday-detail/food-everyday-detail.vue';
     import healthyFoodDetail from '@/pages/healthy-food-detail/healthy-food-detail.vue';
+    import lookUpOrders from '@/pages/look-up-orders/look-up-orders.vue';
+    import register from '@/pages/auth/register.vue';
 import { comment } from 'postcss';
 
     const routes = [
@@ -32,8 +34,8 @@ import { comment } from 'postcss';
         },
         {
            id: 3,
-           path: "/home-course-detail/:endpoint/:id",
-           name:"home-course-detail", 
+           path: "/food-detail/:id",
+           name:"food-detail", 
            component: HomeCourseDetail
         },
         {
@@ -44,13 +46,13 @@ import { comment } from 'postcss';
         },
         {
            id: 5, 
-           path:"/food-everyday/:endpoint/:id",
+           path:"/food-everyday/:endpoint",
            name:"food-everyday", 
            component: foodEveryday
         },
         {
           id: 6,
-          path:"/food-everyday-detail/:endpoint/:price/:id",
+          path:"/food-everyday-detail/:id",
           name: "food-everyday-detail",
           component: foodEveryDayDetail
         },
@@ -78,19 +80,60 @@ import { comment } from 'postcss';
             name: "healthy-food-detail",
             component: healthyFoodDetail
         },
+        
          {
             id: 11,
             path: "/Healthy-food/:endpoint/:id",
             name: "Healthy-food-list",
             component: healthyFood
         },
-        
+        {
+            id: 12, 
+            path: "/register",
+            component: register
+        },
+         {
+              id: 13,
+              path: "/admin",
+              name: "AdminDashboard",
+              component: () => import('@/pages/admin/admin.vue'),
+              meta: { requiresAuth: true, role: 'admin' }  
+          },
+  {
+    id: 14,
+    path: "/user",
+    name: "UserHome",
+    component: () => import('@/pages/home/home.vue'),
+    meta: { requiresAuth: true, role: 'client' }  
+  },
+  
+ {
+    id: 15,
+    path: '/search-course',
+    name: 'SearchCourse',
+    component: lookUpOrders
+  },
+  
+ 
 
          {
              path: "/:pathMatch(.*)*",
              redirect: "/"  // Hoặc có thể trỏ đến component 404
         }
+
+
+
     ]
+// router.beforeEach((to, from, next) => {
+//   const { user } = useUser()
+//   const token = localStorage.getItem('token')
+
+//   if(to.meta.requiresAuth){
+//     if(!token || !user) return next('/login')
+//     if(to.meta.role && user.role !== to.meta.role) return next('/')
+//   }
+//   next()
+// })
 
     const router = createRouter({
         history:  createWebHistory(import.meta.env.BASE_URL),

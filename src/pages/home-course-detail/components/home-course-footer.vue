@@ -1,9 +1,9 @@
 
 
 <template>
-    <div class="max-w-[60em] bg-white p-6" v-if="listData">  
+    <div class="max-w-[60em] bg-white p-6" >  
         <div
-             v-if="listData.endpoint == 'data-study-program'"
+          
              class=""
         >   
             <h1 class="my-4 font-bold font-mono text-red-600"> CHƯƠNG TRÌNH HỌC TRỰC TUYẾN </h1>
@@ -31,10 +31,9 @@
                 :rows="4"
                 :columns="['Tên Module', 'Chuyên Đề', 'Nội Dung Chi Tiết','Số Buổi' ,'Học Phí Theo Combo']"
                 :data="[
-                     ['', 'Chuyên đề Sandwich & Burger', ' Sandwich với ham cheese,  Burger bò', '1 Buổi', '1.800.000 vnđ',],
-                      ['Bữa sáng thông minh Kiểu Âu', 'Chuyên đề Mỳ ý', 'Spaghetti alla bolognese (Mỳ ý xốt bò bằm),  Spaghetti alla carbonara (Mỳ ý xốt kem trứng) ', '1 Buổi',  '1.800.000 vnđ',],
+                       ['', 'Chuyên đề Sandwich & Burger', ' Sandwich với ham cheese,  Burger bò', '1 Buổi', '1.800.000 vnđ',],
+                       ['Bữa sáng thông minh Kiểu Âu', 'Chuyên đề Mỳ ý', 'Spaghetti alla bolognese (Mỳ ý xốt bò bằm),  Spaghetti alla carbonara (Mỳ ý xốt kem trứng) ', '1 Buổi',  '1.800.000 vnđ',],
                        ['', 'Chuyên đề Steak', ' Thăn bò xốt hương thảo, Thăn bò xốt tiêu,  Salad', '1 Buổi', '1.800.000 vnđ',],
-                   
                 ]"
                         
              />
@@ -46,28 +45,83 @@
                class="w-full"
                >
         </div>
-         <h1 class="font-bold my-6 text-[22px]"> Mô tả khóa học    </h1>
-     <div v-if="listData">
-       <figure>  
-            <h2 class="my-4"> {{ listData.describe.content1 }}</h2>
-            <img :src="listData.describe.img" alt="">
-            <figcaption>  {{ listData.figcaption }} </figcaption>
-            <h2 class="my-4"> {{ listData.describe.content2 }}</h2>
-      </figure>
-        <div v-for="(item,index) in listData.step" :key="index">
-            <div>
-              <h2 class="mt-6 font-bold mb-6">    {{ item.nameStep }} </h2>
-              <img  :src="item.img" alt="">
-              <div>
-                    <div v-for="(item,index) in  listData.step[index].listFood" :key="index" class="">
-                        {{ item }}
-                    </div>
-              </div>
-             
-            </div>
-        </div>
+ 
+
+        <h1 class="font-bold my-6 text-[24px] border-b pb-2">
+  Mô tả khóa học
+</h1>
+
+<div v-if="listData" class="space-y-8">
+
+  <!-- DESCRIPTION -->
+  <figure class="space-y-5">
+
+    <h2 class="text-gray-700 leading-relaxed text-[16px]">
+      {{ listData.description.content1 }}
+    </h2>
+
+    <img
+      :src="listData.img"
+      alt=""
+      class="w-full rounded-lg shadow-md object-cover"
+    >
+
+    <figcaption class="text-sm text-gray-500 italic text-center">
+      {{ listData.description.figcaption }}
+    </figcaption>
+
+    <h2 class="text-gray-700 leading-relaxed text-[16px]">
+      {{ listData.description.content2 }}
+    </h2>
+
+  </figure>
+
+
+  <!-- STEPS -->
+  <div
+    v-for="(item,index) in listData.steps"
+    :key="index"
+    class="bg-gray-50 p-6 rounded-xl border hover:shadow-md transition"
+  >
+
+    <!-- step title -->
+    <h2 class="mt-2 font-bold mb-4 text-[18px] flex items-center gap-2">
+      <span class="bg-red-500 text-white px-3 py-1 rounded-full text-sm">
+        Bước {{ index + 1 }}
+      </span>
+
+      {{ item.name_step }}
+    </h2>
+
+    <!-- step image -->
+    <img
+      :src="item.img"
+      alt=""
+      class="w-full rounded-lg shadow mb-4 object-cover"
+    >
+
+    <!-- step content -->
+    <div class="space-y-2 text-gray-700">
+
+      <div
+        v-for="(item,index) in item.items"
+        :key="index"
+        class="flex gap-2 items-start"
+      >
+
+        <span class="text-red-500 font-bold">▶</span>
+
+        <p class="leading-relaxed">
+          {{ item.content }}
+        </p>
+
+      </div>
+
     </div>
 
+  </div>
+
+</div>
  </div>
    
 
@@ -75,6 +129,7 @@
 </template>
 
 <script setup>
+
 import Table from '../../../ui/table.vue';
 import { defineProps } from 'vue';
      const props = defineProps({

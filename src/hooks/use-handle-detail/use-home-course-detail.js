@@ -1,7 +1,7 @@
 import { onMounted, ref ,watch } from "vue";
 import axiosClient from "../../api/axios-client";
 import listEndpoint from '../../common/header/components/navigation-header/components/list-endpoint';
-const HomeCourseDetail = (endpoint) => {
+const HomeCourseDetail = (id) => {
     const nameFolder = ref("data-courser")
 console.log(endpoint.value);
     const listData = ref([]);

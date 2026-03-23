@@ -2,7 +2,7 @@
 
 <template>
     <div class=""> 
-        <div v-if="data" class="grid  gap-6 grid-cols-[1fr_1fr_1fr_1fr]">
+        <div class="grid  gap-6 grid-cols-[1fr_1fr_1fr_1fr]">
              <router-link 
                  :to="{
                         name: 'home-course-detail',
@@ -29,10 +29,10 @@
       import useCourseHome from '../../../hooks/use-show-course/use-course-home';
 import { onMounted, watch } from 'vue';
 
-      const {data} = useCourseHome("/data/data-study-program/data-study-program.json");
+    //   const {data} = useCourseHome("/data/data-study-program/data-study-program.json");
 
-    watch(data, (newData) => {
-            console.log("dữ liệu đã tải xong "+ newData);
-    })
+    // watch(data, (newData) => {
+    //         console.log("dữ liệu đã tải xong "+ newData);
+    // })
 
 </script>

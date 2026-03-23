@@ -8,7 +8,7 @@
                     :src="listImg[index].img" 
                     alt="" 
                     :key="listImg[index].id"
-                     :class="['w-full h-[30em] object-cover ']"
+                     :class="['w-full h-[36em] object-fill ']"
                     
                >
                <div class="absolute top-36 left-[30em]" v-if="index == 0 || index == 1"> 
@@ -19,7 +19,10 @@
                       bg-white font-bold text-2xl
                       mt-10
                       "
-                    > ĐĂNG KÝ HỌC NGAY </button>
+                    > ĐĂNG KÝ HỌC NGAY 
+                  
+                  
+                  </button>
                  </div>
             </div>
             

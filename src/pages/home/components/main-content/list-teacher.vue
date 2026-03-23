@@ -4,12 +4,9 @@
 <template>
     <div class="mt-6 ">
         <Title content="ĐỘI NGŨ GIẢNG VIÊN" />
-        <div class="flex justify-between mt-6 cursor-pointer">
+        <div class="flex justify-between mt-6 ">
             <router-link 
-                :to="{name: 'health-articles-page', params: {
-                    endpoint: item.endpoint,
-                    id: item.id
-                }}"
+               
                 v-for="(item , index) in dataTechers" 
                 :key="index"
                 class="flex flex-col items-center"

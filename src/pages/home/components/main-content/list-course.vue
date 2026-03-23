@@ -20,8 +20,8 @@
          <div class="relative">  
              <div class=" flex gap-4 p-4  overflow-x-hidden bg-slate-400 relative  scroll-smooth" ref="containerScroll">
                 <router-link
-                     :to="{name: 'home-course-detail', params: {
-                        endpoint: item.endpoint,
+                     :to="{name: 'food-detail', params: {
+                    
                         id: item.id
                         
                     }}" 
@@ -122,8 +122,8 @@ const getData = computed(() => {
   if(url.condition_name === "food-everyday") {
           return url.data.filter(item => item.endpoint === "food-everyday");
   }
-  if(url.condition_name === "family-cooking") {
-          return url.data.filter(item => item.endpoint === "family-cooking");
+  if(url.condition_name === "braised-dish") {
+          return url.data.filter(item => item.endpoint === "braised-dish");
   }
 
 

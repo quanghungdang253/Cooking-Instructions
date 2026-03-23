@@ -19,7 +19,7 @@
             <div class="shadow-2xl p-6 rounded-xl grid gap-2"> 
                 <router-link 
                     :to="{
-                        name: 'home-course-detail',
+                        name: 'food-everyday',
                         params: {
                             endpoint: item.nameCourserSideBar,
                             id: item.id

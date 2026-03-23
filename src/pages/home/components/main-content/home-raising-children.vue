@@ -20,8 +20,7 @@
          <div class="relative">  
              <div class=" flex gap-4 p-4  overflow-x-hidden bg-slate-400 relative  scroll-smooth" ref="containerScroll">
                 <router-link
-                     :to="{name: 'home-course-detail', params: {
-                        endpoint: item.endpoint,
+                     :to="{name: 'food-detail', params: {
                         id: item.id
                         
                     }}" 
