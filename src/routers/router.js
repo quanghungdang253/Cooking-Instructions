@@ -11,6 +11,7 @@
     import healthyFood from '@/pages/healthy-food/healthy-food.vue';
     import foodEveryDayDetail from '@/pages/food-everyday-detail/food-everyday-detail.vue';
     import healthyFoodDetail from '@/pages/healthy-food-detail/healthy-food-detail.vue';
+    import { useUser } from '@/hooks/useInfoUser';
     import lookUpOrders from '@/pages/look-up-orders/look-up-orders.vue';
     import register from '@/pages/auth/register.vue';
 import { comment } from 'postcss';
@@ -104,7 +105,7 @@ import { comment } from 'postcss';
     path: "/user",
     name: "UserHome",
     component: () => import('@/pages/home/home.vue'),
-    meta: { requiresAuth: true, role: 'client' }  
+    meta: { requiresAuth: true, role: 'user' }  
   },
   
  {
@@ -124,25 +125,34 @@ import { comment } from 'postcss';
 
 
     ]
-// router.beforeEach((to, from, next) => {
-//   const { user } = useUser()
-//   const token = localStorage.getItem('token')
 
-//   if(to.meta.requiresAuth){
-//     if(!token || !user) return next('/login')
-//     if(to.meta.role && user.role !== to.meta.role) return next('/')
-//   }
-//   next()
-// })
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    return savedPosition || { top: 0 }
+  }
+})
 
-    const router = createRouter({
-        history:  createWebHistory(import.meta.env.BASE_URL),
-        routes,
-         scrollBehavior(to, from, savedPosition) {
-        return savedPosition || { top: 0 }
+router.beforeEach((to, from, next) => {
+
+  const { user } = useUser()
+  const token = localStorage.getItem('token')
+
+  if (to.meta.requiresAuth) {
+
+    if (!token || !user.value) {
+      return next('/login')
     }
-    })
 
+    if (to.meta.role && user.value.role !== to.meta.role) {
+      return next('/')
+    }
+
+  }
+
+  next()
+})
 
 
     export default router;

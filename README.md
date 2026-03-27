@@ -75,13 +75,16 @@ Giao diện responsive cho thiết bị di động
 
 ##  Ảnh minh họa
  **Trang Admin**
- ![Trang Admin](./demo/img1.png) | ![Menu](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png)
+ ![Trang Admin](./demo/img1.png) | ![Menu](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png) (./demo/img5.png) | ![Menu](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png) (./demo/img9.png) | ![Menu](./demo/img10.png) | ![Dark](./demo/img11.png)
 
- ![Home](./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
+(./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
 ---
- ![Home](./demo/img9.png) | ![Details](./demo/img10.png) | ![Dark](./demo/img11.png) | ![Dark](./demo/img12.png)
+ ![Dark](./demo/img12.png)
   ![Home](./demo/img13.png) | ![Details](./demo/img14.png) | ![Dark](./demo/img15.png) | ![Dark](./demo/img16.png)
-  ![Home](./demo/img17.png) 
+  ![Home](./demo/img17.png) ![Home](./demo/img18.png) | ![Details](./demo/img19.png) | ![Dark](./demo/img20.png) | ![Dark](./demo/img21.png)
+  ![Home](./demo/img22.png) ![Home](./demo/img23.png) | ![Details](./demo/img24.png) | ![Dark](./demo/img25.png) | ![Dark](./demo/img26.png)
+  ![Home](./demo/img27.png) ![Home](./demo/img28.png) | ![Details](./demo/img29.png) | ![Dark](./demo/img30.png) | ![Dark](./demo/img31.png)
+
 ---
 ---
 

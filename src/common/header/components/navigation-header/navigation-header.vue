@@ -63,8 +63,13 @@
                                  <span class="ml-2">{{ user.name }}</span>
                               </div>
                                 <transition name="fade-slide">     
-                                 <div    
-                                     v-show="user && logicBtn" >
+                               
+
+<div
+  v-if="logicBtn"
+  class="absolute top-14   ml-6 bg-white text-black shadow-lg rounded p-2"
+>
+
                                     <button  @click="logout" class="ml-4 bg-red-500 px-2 rounded"> 
                                                Đăng Xuất 
                                     </button>
@@ -119,8 +124,8 @@
                     
                     >
                       <div
-  @click="handleNavigation(itemChild.endpoint, itemChild.id)"
-  class="cursor-pointer pl-4 pr-2 py-2 font-bold font-mono text-[14px] hover:bg-yellow-600"
+                      @click="handleNavigation(itemChild.endpoint, itemChild.id)"
+    class="cursor-pointer pl-4 pr-2 py-2 font-bold font-mono text-[14px] hover:bg-yellow-600"
 >
                           <h1
                             class="cursor-pointer  text-center font-mono  font-bold inline-block  hover:transition-transform hover: duration-700"
@@ -157,10 +162,9 @@
         const logicBtn  = ref(false);
 
 
-        function handleLogicBtn() {
-       
-             router.push("/admin")
-        }
+   function handleLogicBtn() {
+           logicBtn.value = !logicBtn.value
+}
 
 const logout = () => {
   clearUser()

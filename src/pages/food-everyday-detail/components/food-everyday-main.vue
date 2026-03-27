@@ -99,8 +99,8 @@
                              <Alert 
                                    
                                      nameIcon="error" 
-                                     title="Vui lòng chọn 1 tùy chọn" 
-                                     text="Đã thêm món ăn thành công!" 
+                                     title="Error" 
+                                     text="Vui lòng chọn 1 tùy chọn" 
                                     />
                                </div> 
                     </div>

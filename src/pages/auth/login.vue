@@ -52,14 +52,42 @@
 </div>
 
       <!-- Hiển thị user info khi login -->
-      <div v-if="user" class="mt-6 p-4 bg-gray-100 rounded flex items-center gap-4">
-        <img :src="user.avatar" class="w-12 h-12 rounded-full"/>
-        <div>
-          <p class="font-bold">{{ user.name }}</p>
-          <p class="text-sm text-gray-600">Role: {{ user.role }}</p>
-        </div>
-        <button @click="logout" class="ml-auto bg-red-500 px-3 py-1 text-white rounded">Logout</button>
-      </div>
+     
+
+
+      <div v-if="user" class="mt-6 flex justify-center relative">
+
+  <!-- User info -->
+  <div 
+    class="flex items-center gap-2 cursor-pointer"
+  @click.stop="toggleMenu"
+  >
+    <img
+      :src="user.avatar"
+      class="w-12 h-12 rounded-full border"
+    />
+
+    <span class="font-semibold text-gray-700">
+      {{ user.name }}
+    </span>
+  </div>
+
+  <!-- Dropdown -->
+ <div
+  v-if="showMenu"
+  class="absolute top-14 z-50 bg-white shadow-lg rounded-lg w-40 p-2"
+>
+    <button
+      @click="logout"
+      class="w-full text-left px-3 py-2 hover:bg-red-100 text-red-500"
+    >
+      Đăng xuất
+    </button>
+  </div>
+
+</div>
+
+
     </div>
   </div>
 </template>
@@ -72,8 +100,15 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUser } from '@/hooks/useInfoUser'
 
-const { setUser } = useUser()
+const { user, setUser, clearUser } = useUser()
 const router = useRouter()
+
+
+const showMenu = ref(false)
+
+const toggleMenu = () => {
+  showMenu.value = !showMenu.value
+}
 
 const nameLogin = ref('')
 const password = ref('')
@@ -136,7 +171,11 @@ const handleGoogleLogin = () => {
     if (googleUser && access_token) {
       localStorage.setItem('token', access_token);
       setUser(googleUser);   
-      router.push('/');    
+      if(googleUser.role === 'admin'){
+  router.push('/admin')
+}else{
+  router.push('/user')
+}
     }
     win.close();
   }, { once: true });
@@ -146,11 +185,10 @@ const handleGoogleLogin = () => {
 
 // ---------------- Logout ----------------
 const logout = () => {
-  // Xóa user trong composable + localStorage
-  setUser(null)
+  clearUser()
   localStorage.removeItem('token')
+  router.push('/login')
 }
-
 // ---------------- Khi load trang, check token ----------------
 onMounted(async ()=>{
   const token = localStorage.getItem('token')
