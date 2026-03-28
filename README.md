@@ -3,6 +3,7 @@ Giới thiệu
 Một website hướng dẫn nấu ăn hiện đại được xây dựng với Vue 3 và server laravel, giúp người dùng dễ dàng khám phá các công thức được phân loại, tìm kiếm nhanh chóng và trải nghiệm giao diện mượt mà, thân thiện với mọi thiết bị.
 
  **Video demo**: https://youtu.be/a6o6wAKwZJE
+ 
 
 
 
@@ -57,13 +58,12 @@ Quản lý đơn hàng
 - Tailwind CSS 
 - Heroicons – Icon hiện đại
 
-
-**Hosting Frontend** :  Vercel
-
 **Backend**
-- PHP (Vanilla)
+- PHP, Laravel 
+
+
 **Cơ sở dữ liệu**
-- mysql
+- MYSQL
 
 
 ##  Ảnh minh họa
