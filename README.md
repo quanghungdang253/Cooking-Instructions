@@ -1,45 +1,50 @@
 #  Cooking Instructions - Dự án Vue 3
 Giới thiệu
-Một website hướng dẫn nấu ăn hiện đại được xây dựng với Vue 3, giúp người dùng dễ dàng khám phá các công thức được phân loại, tìm kiếm nhanh chóng và trải nghiệm giao diện mượt mà, thân thiện với mọi thiết bị.
+Một website hướng dẫn nấu ăn hiện đại được xây dựng với Vue 3 và server laravel, giúp người dùng dễ dàng khám phá các công thức được phân loại, tìm kiếm nhanh chóng và trải nghiệm giao diện mượt mà, thân thiện với mọi thiết bị.
 
- **Trang web trực tuyến**: https://cooking-instructions.vercel.app/
+ **Video demo**: https://youtu.be/a6o6wAKwZJE
 
- **Đăng nhập Admin:** 
-      + tên đăng nhập: hung.
-      + mật mật khẩu: 123
 
----
 
 ##  TÍNH NĂNG
 
-Đã hoàn thành:
-**Danh sách công thức được phân loại (Bữa sáng, trưa, tối…)**
-**Trang chi tiết công thức gồm:**
-++ Nguyên liệu
 
-++ Hướng dẫn từng bước
+👤 Người dùng (Client)
++ Hiển thị danh sách khóa học
++ Tìm kiếm khóa học theo từ khóa
++ Lọc khóa học (danh mục, giá,...)
++ Xem chi tiết khóa học
++ Thêm sản phẩm vào giỏ hàng
++ Quản lý giỏ hàng (thêm, xóa, cập nhật số lượng)
++ Đăng ký tài khoản
++ Đăng nhập bằng email/password (JWT)
++ Đăng nhập bằng Google (OAuth 2.0)
 
-++ Các công thức liên quan ở thanh bên
+🔐 Xác thực & Phân quyền
++ Xác thực người dùng bằng JWT
++ Đăng nhập bằng Google OAuth 2.0
++ Phân quyền người dùng (User / Admin)
++ Bảo vệ API bằng token
 
-**Chức năng giỏ hàng (Shopping Cart)**
 
- **Trang Admin**
+🛠️ Quản trị (Admin)
++ Dashboard thống kê:
++ Tổng số khóa học
+Tổng số đơn hàng
+Quản lý khóa học (CRUD: thêm, sửa, xóa, xem)
+Quản lý người dùng / học viên
+Quản lý tài khoản đăng nhập
+Quản lý đơn hàng
 
- **Chức năng lọc**
 
- **Đặt hàng**
+ ⚙️ Hệ thống / Backend
++ Xây dựng RESTful API bằng Laravel
++ Xử lý logic nghiệp vụ (giỏ hàng, xác thực,...)
++ Phân trang dữ liệu phía server
++ Tìm kiếm và lọc dữ liệu phía backend
++ Kết nối API với frontend (Vue.js)
 
-### ĐANG PHÁT TRIỂN 
 
-Lưu công thức yêu thích
-
-Bình luận và đánh giá công thức
-
-Chế độ sáng/tối
-
-Giao diện responsive cho thiết bị di động
-
----
 
 ##  Công nghệ sử dụng
 **Frontend**
@@ -58,27 +63,13 @@ Giao diện responsive cho thiết bị di động
 **Backend**
 - PHP (Vanilla)
 **Cơ sở dữ liệu**
+- mysql
 
-- phpMyAdmin 
-
-
-**Hosting Backend** : InfinityFree Hosting
----
-
-##  Trạng thái dự án
-
-- **Giai đoạn hiện tại**: Đang phát triển  
-- **Bắt đầu**: Tháng 7 năm 2025  
-- **Dự kiến hoàn thành**: Tháng 9 năm 2025
-
----
 
 ##  Ảnh minh họa
  **Trang Admin**
  ![Trang Admin](./demo/img1.png) | ![Menu](./demo/img2.png) | ![Dark](./demo/img3.png) | ![Dark](./demo/img4.png) (./demo/img5.png) | ![Menu](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png) (./demo/img9.png) | ![Menu](./demo/img10.png) | ![Dark](./demo/img11.png)
 
-(./demo/img5.png) | ![Details](./demo/img6.png) | ![Dark](./demo/img7.png) | ![Dark](./demo/img8.png)
----
  ![Dark](./demo/img12.png)
   ![Home](./demo/img13.png) | ![Details](./demo/img14.png) | ![Dark](./demo/img15.png) | ![Dark](./demo/img16.png)
   ![Home](./demo/img17.png) ![Home](./demo/img18.png) | ![Details](./demo/img19.png) | ![Dark](./demo/img20.png) | ![Dark](./demo/img21.png)
